@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import Link from "next/link";
+
 interface Translations {
     [key: string]: any // 根据你的翻译文件结构调整类型
   }

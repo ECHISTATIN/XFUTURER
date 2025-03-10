@@ -1,7 +1,7 @@
 // src/components/pc/MessageCarousel.tsx
 'use client'
 
-import { useState} from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 
 interface Message {

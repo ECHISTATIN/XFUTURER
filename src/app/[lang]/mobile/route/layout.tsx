@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getTranslations } from "@/lib/i18n";
+
 export default async function RoutePage({
   params,
   children,

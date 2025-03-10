@@ -157,6 +157,7 @@ export default async function ServicePage({
           <div className="box-img">
             <img
               src="/images/group1203.png"
+              alt="group1203"
               style={{ marginTop: '60px' }}
             />
             <span className="box-l">Java</span>
@@ -164,6 +165,7 @@ export default async function ServicePage({
           <div className="box-img">
             <img
               src="/images/mobile/Microsoftnet.png"
+              alt="Microsoftnet"
               style={{ height: '130px', marginTop: '70px' }}
             />
             <span className="box-l">Microsoft.NET</span>
@@ -171,6 +173,7 @@ export default async function ServicePage({
           <div className="box-img">
             <img
               src="/images/group1210.png"
+              alt="group1210"
               style={{ marginTop: '76px' }}
             />
             <span className="box-l">JavaScript</span>
@@ -180,6 +183,7 @@ export default async function ServicePage({
           <div className="box-img">
             <img
               src="/images/group1212.png"
+              alt="group1212"
               style={{ marginTop: '112px' }}
             />
             <span className="box-l">Go</span>
@@ -187,6 +191,7 @@ export default async function ServicePage({
           <div className="box-img">
             <img
               src="/images/group1214.png"
+              alt="group1214"
               style={{ marginTop: '99px' }}
             />
             <span className="box-l">AWS</span>
@@ -194,6 +199,7 @@ export default async function ServicePage({
           <div className="box-img">
             <img
               src="/images/group1209.png"
+              alt="group1209"
               style={{ marginTop: '103px' }}
             />
             <span className="box-l">PHP</span>

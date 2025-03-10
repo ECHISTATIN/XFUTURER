@@ -1,6 +1,7 @@
 import { getTranslations } from '@/lib/i18n'
 import Link from 'next/link'
 import '@/styles/pc/route.css'
+
 export default async function FontsLayout({
   children,
   params,

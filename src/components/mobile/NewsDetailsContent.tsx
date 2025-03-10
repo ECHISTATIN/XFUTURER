@@ -20,7 +20,6 @@ interface Translations {
   [key: string]: any; // 根据你的翻译文件结构调整类型
 }
 export default function DetailsPage({
-  lang,
   translations: t,
 }: {
   lang: string;

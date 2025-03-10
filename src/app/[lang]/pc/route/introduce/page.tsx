@@ -1,5 +1,6 @@
 import { getTranslations } from '@/lib/i18n'
 import MapComponent from '@/components/pc/MapComponent' // 直接导入，不使用 dynamic
+import Link from 'next/link'
 import '../../../../../styles/pc/route.css'
 import '../../../../../styles/pc/introduce.css'
 

@@ -1,5 +1,6 @@
 import { getTranslations } from '@/lib/i18n'
 import AdoptContent from '@/components/pc/AdoptContent' // 将客户端逻辑移到新组件
+import Link from 'next/link'
 import '@/styles/pc/route.css'
 import '@/styles/pc/adopt.css'
 

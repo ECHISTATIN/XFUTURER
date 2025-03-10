@@ -18,7 +18,6 @@ interface Translations {
 }
 
 export default function ConsultForm({
-  lang,
   translations: t,
 }: {
   lang: string

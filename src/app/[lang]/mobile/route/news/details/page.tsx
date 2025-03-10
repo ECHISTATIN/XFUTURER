@@ -4,7 +4,6 @@ import "@/styles/mobile/details.css";
 
 export async function generateMetadata({
   params,
-  searchParams,
 }: {
   params: Promise<{ lang: string }>;
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
