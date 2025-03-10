@@ -1,0 +1,308 @@
+/* [project]/src/styles/pc/route.css [app-client] (css) */
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1920px;
+}
+
+.contact-picture {
+  width: 960px;
+  height: 410px;
+}
+
+.phone, .message {
+  width: 960px;
+  height: 205px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  left: 960px;
+}
+
+.phone {
+  background-color: #333;
+}
+
+.message {
+  background-color: #ea5506;
+}
+
+.mes {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.icon-1 {
+  margin-left: 50px;
+  width: 90px;
+  height: 89px;
+  opacity: .5;
+}
+
+.contact .text {
+  margin-left: 40px;
+  color: #fff;
+  line-height: 40px;
+}
+
+.phone .text div:first-child {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.phone .text div:nth-child(2) span:first-child {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.phone .text div:nth-child(2) span:last-child {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.phone .text div:nth-child(3) {
+  font-size: 14px;
+  font-weight: bold;
+  opacity: .5;
+}
+
+.icon-2 {
+  width: 98px;
+  height: 68px;
+  opacity: .5;
+}
+
+.mes .text {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.mes .icon-3 {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.route-picc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 360px;
+  z-index: -1;
+}
+
+.route-select {
+  width: 1920px;
+  height: 102px;
+  margin-top: 73px;
+  margin-left: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.route-select:before {
+  position: absolute;
+  left: -50px;
+  content: "";
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(#1a1a1a 50%, #ea5506 50%);
+}
+
+.route-f1 {
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+  letter-spacing: 0;
+  color: #1a1a1a;
+}
+
+.route-f2 {
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: .7px;
+  color: #1a1a1a;
+}
+
+.route-f3 {
+  margin-left: 8px;
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: .7px;
+  color: #8e8e8e;
+}
+
+.route-line {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.route-line img {
+  margin-left: 11px;
+  width: 7px;
+  height: 7px;
+}
+
+.message a {
+  text-decoration: none;
+}
+
+
+/* [project]/src/styles/pc/consult.css [app-client] (css) */
+*, :after, :before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+
+.consult-box {
+  margin-top: 155px;
+  margin-left: 410px;
+  width: 1100px;
+  height: 960px;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.consult-tb {
+  width: 1000px;
+  height: 870px;
+  background-color: #fff;
+  padding: 58px 50px;
+  position: relative;
+}
+
+.input-line {
+  width: 900px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 38px;
+}
+
+.input-fonts {
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1a1a1a;
+}
+
+.must {
+  margin-left: 16px;
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ea5506;
+}
+
+.input-field {
+  position: absolute;
+  left: 283px;
+  width: 667px;
+  height: 53px;
+  border: 1px solid #cecece;
+  border-radius: 4px;
+  padding-left: 20px;
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #8e8e8e;
+}
+
+.privacy {
+  margin-top: 36px;
+  margin-left: 460px;
+  width: 1000px;
+  height: 294px;
+  border: 1px solid #d6d6d6;
+  display: flex;
+  flex-direction: column;
+  padding: 47px 50px;
+}
+
+.privacy-line {
+  width: 900px;
+  height: 42px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.privacy-f1 {
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0;
+  color: #1a1a1a;
+}
+
+.privacy-f2 {
+  margin-top: 20px;
+  width: 900px;
+  white-space: normal;
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: .8px;
+  line-height: 20px;
+  color: #1a1a1a;
+}
+
+.privacy-f3 {
+  margin-top: 20px;
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: .8px;
+  color: #1a1a1a;
+}
+
+.check {
+  margin-left: 820px;
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+input[type="checkbox"] {
+  width: 28px;
+  height: 28px;
+  accent-color: #dedede;
+}
+
+.check-f {
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0;
+  color: #1a1a1a;
+}
+
+.submit-btn {
+  margin-top: 37px;
+  margin-left: 775px;
+  margin-bottom: 136px;
+  width: 370px;
+  height: 70px;
+  color: #fff;
+  background-color: #333;
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.consultpage {
+  width: 100%;
+}
+
+
+/*# sourceMappingURL=src_styles_pc_ad910c53._.css.map*/

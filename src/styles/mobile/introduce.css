@@ -1,0 +1,224 @@
+
+.message-in{
+    width: 700px;
+    margin-top: 80px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profile{
+    width: 780px;
+    padding: 90px 40px; 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.profile-tb{
+    margin-top: 40px;
+    width: 740px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.tb-line{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 100%;
+    border-bottom: 1px solid #CECECE;
+    padding: 35px 0px;
+}
+
+.tb-f1{
+    width: 230px;
+    
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 1.8px;
+    color: #1A1A1A
+}
+
+.tb-f2{
+    flex: 1;
+    
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 1.7px;
+    line-height: 38px;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.access{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.traffic-way ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.traffic-way li{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+    font-weight: 500;
+    font-size: 26px;
+    letter-spacing: 1.6px;
+}
+
+.traffic-way li::before{
+    content: "";
+    display: inline-block;
+    width: 12px; /* 圆点的宽度 */
+    height: 12px; /* 圆点的高度 */
+    background-color: #EA5506; /* 圆点的颜色 */
+    border-radius: 50%; /* 圆点形状 */
+    margin-left: 12px; /* 圆点与链接的间距 */
+    margin-right: 12px;
+}
+
+
+.google{
+    
+    font-weight: 700;
+    font-size: 28px;
+    width: 380px;
+    letter-spacing: 1.7px;
+    color: #EA5506!important;
+    border: 2px solid #EA5506;
+    border-radius: 5px;
+text-align: center;
+}
+.google a{
+    text-decoration: none;
+    color: #EA5506!important;
+}
+
+.history{
+    width: 780px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 40px;
+    position: relative;
+}
+
+.profilebi{
+    background-color: #F8F8F8;
+    position: absolute;
+    width: 680px;
+    height: calc(100% - 180px);
+    left: 0px;
+    z-index: -1;
+}
+.historybi{
+    background-color: #F8F8F8;
+    position: absolute;
+    width: 680px;
+    height: calc(100% - 60px);
+    left: 100px;
+    z-index: -1;
+}
+
+.history-box{
+    width: 700px;
+    height: 762px;
+    background-color: #FFFFFF;
+}
+
+.history-axis{
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.axis{
+    
+    display: flex;
+    align-items: center;      /* 垂直居中对齐 */
+    justify-content: flex-start;  /* 水平对齐为左侧 */
+    position: relative;
+}
+
+.axis-1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    letter-spacing: 0px;
+    color: #EA5506;
+}
+
+.axis-2{
+    position: absolute; 
+    left: 224px;
+    
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 1.8px;
+    color: #1A1A1A;
+}
+
+.axis-3{
+    position: absolute;       /* 绝对定位 */
+    top:60px;
+
+    left: 224px;
+    
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 1.7px;
+    line-height: 35px;
+    color: #8E8E8E;
+}
+
+
+
+
+.history-axis::after {
+    content: ''; 
+    width: 1px; /* 竖线的宽度 */
+    height: 70%; /* 竖线的高度 */
+    background-color: #CECECE; /* 背景竖线的颜色 */
+    position: absolute; /* 绝对定位 */
+    left:228px; /* 离左侧 150px */
+    
+}
+
+/* 在 .axis-2 和 .axis-1 之间添加黑点 */
+.axis::after {
+    left:183px; /* 离左侧 150px */
+    content: ''; 
+    width: 12px;         /* 黑点的宽度 */
+    height: 12px;        /* 黑点的高度 */
+    background-color: black; /* 黑点的颜色 */
+    border-radius: 50%; /* 让它变成圆形 */
+    position: absolute;   /* 绝对定位 */
+    top: 50%;            /* 垂直居中 */
+    transform: translateY(-50%); /* 确保黑点垂直居中 */
+    z-index: 999;
+}
+.introducepage{
+    width: 780px;
+    background-image: 
+    url('/images/mobile/group647.png'),
+    url('/images/mobile/group615.png'),
+
+    url('/images/mobile/group629.png');
+    background-repeat: no-repeat;
+    background-position: 
+    top 2222px left 527.84px,
+    top 478.99px left 602.03px,
+
+    top 4884.84px left 526px;
+}

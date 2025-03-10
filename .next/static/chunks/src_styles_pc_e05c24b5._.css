@@ -1,0 +1,361 @@
+/* [project]/src/styles/pc/route.css [app-client] (css) */
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1920px;
+}
+
+.contact-picture {
+  width: 960px;
+  height: 410px;
+}
+
+.phone, .message {
+  width: 960px;
+  height: 205px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  left: 960px;
+}
+
+.phone {
+  background-color: #333;
+}
+
+.message {
+  background-color: #ea5506;
+}
+
+.mes {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.icon-1 {
+  margin-left: 50px;
+  width: 90px;
+  height: 89px;
+  opacity: .5;
+}
+
+.contact .text {
+  margin-left: 40px;
+  color: #fff;
+  line-height: 40px;
+}
+
+.phone .text div:first-child {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.phone .text div:nth-child(2) span:first-child {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.phone .text div:nth-child(2) span:last-child {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.phone .text div:nth-child(3) {
+  font-size: 14px;
+  font-weight: bold;
+  opacity: .5;
+}
+
+.icon-2 {
+  width: 98px;
+  height: 68px;
+  opacity: .5;
+}
+
+.mes .text {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.mes .icon-3 {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.route-picc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 360px;
+  z-index: -1;
+}
+
+.route-select {
+  width: 1920px;
+  height: 102px;
+  margin-top: 73px;
+  margin-left: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.route-select:before {
+  position: absolute;
+  left: -50px;
+  content: "";
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(#1a1a1a 50%, #ea5506 50%);
+}
+
+.route-f1 {
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+  letter-spacing: 0;
+  color: #1a1a1a;
+}
+
+.route-f2 {
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: .7px;
+  color: #1a1a1a;
+}
+
+.route-f3 {
+  margin-left: 8px;
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: .7px;
+  color: #8e8e8e;
+}
+
+.route-line {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.route-line img {
+  margin-left: 11px;
+  width: 7px;
+  height: 7px;
+}
+
+.message a {
+  text-decoration: none;
+}
+
+
+/* [project]/src/styles/pc/introduce.css [app-client] (css) */
+.introduce-backimg {
+  width: 1920px;
+  background-image: url("/images/group647.png"), url("/images/rectangle2204-1.png"), url("/images/rectangle2218.png"), url("/images/group585.png"), url("/images/group587-1.png"), url("/images/group615.png"), url("/images/group629.png");
+  background-repeat: no-repeat;
+  background-position: 124px 2053px, 0 1151px, 588px 3357px, 200px 4000px, 1560px 1073px, 90px 541px, 1510px 3024px;
+}
+
+.message-in {
+  margin-top: 58px;
+  margin-left: 410px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile {
+  margin-top: 192px;
+  margin-left: 410px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-tb {
+  margin-left: 50px;
+  margin-top: 72px;
+  width: 1000px;
+  height: 973px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.tb-line {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #cecece;
+  height: 90px;
+}
+
+.tb-f1 {
+  width: 230px;
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #1a1a1a;
+}
+
+.tb-f2 {
+  flex: 1;
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: .9px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+.access {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 510px;
+}
+
+.traffic img {
+  width: 30px;
+}
+
+.traffic-way ul {
+  display: flex;
+  margin-left: 30px;
+}
+
+.traffic-way li {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: .9px;
+}
+
+.traffic-way li:not(:last-child):after {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: #ea5506;
+  border-radius: 50%;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.google {
+  margin-left: 700px;
+  margin-top: -94px;
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: .9px;
+  color: #ea5506;
+  border: 2px solid #ea5506;
+  border-radius: 5px;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.google a {
+  text-decoration: none;
+  color: #ea5506;
+}
+
+.history {
+  height: 1010px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 460px;
+  margin-top: 205px;
+}
+
+.history-box {
+  width: 1000px;
+  height: 762px;
+  background-color: #fff;
+}
+
+.history-axis {
+  width: 882px;
+  height: 633px;
+  margin-top: 72px;
+  margin-left: 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.axis {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.axis-1 {
+  margin-left: -12px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  letter-spacing: 0;
+  color: #ea5506;
+}
+
+.axis-2 {
+  position: absolute;
+  left: 200px;
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1.1px;
+  color: #1a1a1a;
+}
+
+.axis-3 {
+  position: absolute;
+  bottom: 0;
+  left: 200px;
+  font-family: Noto Sans JP, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: .9px;
+  color: #8e8e8e;
+}
+
+.history-axis:after {
+  content: "";
+  width: .7px;
+  height: 650px;
+  background-color: #cecece;
+  position: absolute;
+  left: 700px;
+}
+
+.axis-1:after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 150px;
+  z-index: 999;
+}
+
+
+/*# sourceMappingURL=src_styles_pc_e05c24b5._.css.map*/

@@ -1,0 +1,117 @@
+
+/*头部*/
+.route-pic{
+    position: absolute; /* 将图片定位为绝对位置 */
+    top: 0; /* 距离顶部 0px */
+    left: 0; /* 距离左侧 0px */
+    width: 780px;
+    height: 431px;
+    z-index: -1;
+}
+
+.route-select{
+    width:650px;
+    height: 160px;
+    margin-top: 73px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.route-select::before{
+  position: absolute;
+  content: '';
+  left: -30px;
+  width: 6px;
+  height: 100%; /* 垂直线覆盖整个高度 */
+  background: linear-gradient(to bottom, #1A1A1A 50%, #EA5506 50%);
+}
+.route-f1{
+  
+  font-Weight:700;
+  font-Size:46px;
+  letter-Spacing: 0px;
+  color:#1A1A1A
+}
+.route-f2{
+  
+  font-Weight:400;
+  font-Size:26px;
+  letter-Spacing: 0.7px;
+  color:#1A1A1A
+}
+.route-f3{
+  margin-left:8px;
+  
+  font-Weight:400;
+  font-Size:26px;
+  letter-Spacing: 0.7px;
+  color:#8E8E8E
+}
+.route-line{
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+}
+.route-line img{
+  margin-left: 11px;
+  width: 7px;
+  height: 7px;
+}
+
+.contact{
+  margin-top: 100px;
+  width: 780px;
+}
+.contact-picture img{
+  width: 780px;
+  height: 274px;
+}
+.items {
+  margin-top: -6.8px!important;
+    display: flex;
+    flex-direction: row; /* 横向布局 */
+}
+.phone{
+  width: 390px;
+  height: 260px;
+  background: linear-gradient(90deg, rgb(51, 51, 51), rgb(0, 0, 0)); /* 从深灰到浅灰的渐变 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.message{
+  width: 390px;
+  height: 260px;
+  background: linear-gradient(90deg, rgb(234, 85, 6), rgb(237, 155, 0)); /* 从深橙到浅橙的渐变 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text1{
+  width: 310px;
+  text-align: center;
+  
+  font-Weight:700;
+  font-Size:32px;
+  letter-Spacing: 1.9px;
+  color:#FFFFFF;
+}
+.text2{
+  text-align: center;
+  
+  font-Weight:400;
+  font-Size:26px;
+  letter-Spacing: 1.6px;
+  color:#FFFFFF;
+}
+.message a{
+  text-decoration: none; /* 去掉下划线 */
+}
+.icon-1{
+  margin-bottom: 20px;
+}
+.icon-2{
+  margin-bottom: 20px;
+}

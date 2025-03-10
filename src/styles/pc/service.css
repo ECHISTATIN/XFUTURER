@@ -1,0 +1,140 @@
+.service-backimg{
+  width: 1920px;
+  background-image: 
+  url('/images/rectangle2204.png');
+background-repeat: no-repeat; /* 避免重复 */
+background-position: 
+  top 285px left 0px;
+}
+
+.brief{
+    margin-top: 314px;
+    width: 1920px;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    gap: 40px;
+}
+
+
+.brief-box{
+    width: 530px;
+    padding: 240px 40px 40px;
+    position: 'relative';
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); /* 右下角阴影 */
+}
+
+.supported{
+  margin-top: 158px;
+  width: 1920px;
+  height: 870px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.supported-box{
+  margin-top: 50px;
+  width: 1920px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.box-img{
+  width: 320px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #E2E2E2;
+}
+
+.box-l{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1.1px;
+  font-weight: 700;
+  margin-top: auto;
+  margin-bottom: 45px;
+}
+
+
+.case{
+  margin-top: 120px;
+  width: 1920px;
+  height: 710px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('/images/pixta_83375229_XL_dark-1.png');
+}
+
+.message-rotation {
+  margin-top: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1920px;
+  overflow: hidden;
+}
+
+.message-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+  height: 320px;
+  background-color: #ffffff;
+  border-radius: 10px; /* 圆角 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 阴影 */
+  text-align: left;
+  position: relative;
+}
+
+
+.message-img {
+  position: absolute;
+  width: 82px;
+  height: 82px;
+  top: 50px;
+  left: 50px;
+}
+
+.message-text {
+  position: absolute;
+  top: 50px;
+  left: 180px;
+  right: 50px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.9px;
+  line-height: 40px;
+  font-weight:400;
+  color: #333333;
+}
+
+.message-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.left-arrow {
+  left: 435px;
+}
+
+.right-arrow {
+  right: 435px;
+}

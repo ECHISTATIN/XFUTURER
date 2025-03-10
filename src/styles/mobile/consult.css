@@ -1,0 +1,152 @@
+.consult-box{
+    margin-top: 155px;
+    width: 780px;
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.consult-tb{
+    width: 780px;
+    background-color: #FFFFFF;
+    position: relative;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.input-line{
+    width: 660px;
+    display: flex;
+    margin-bottom: 38px;
+    flex-direction: column;
+
+
+}
+
+
+.input-fonts{
+    
+    font-weight: 500;
+    font-size: 32px;
+    color: #1A1A1A;
+    display: flex;
+   align-items: center;
+}
+
+
+
+.must{
+    margin-left: 16px;
+    
+    font-weight: 500;
+    font-size: 26px;
+    color: #EA5506;
+}
+.input-title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.input-field {
+    width: 660px;
+    height: 94px;
+    border: 1px solid #CECECE;
+    border-radius: 4px;
+    padding-left: 20px;
+    
+    font-weight: 400;
+    font-size: 30px;
+    color: #8E8E8E;
+  }
+
+  .privacy{
+    margin-top: 36px;
+    margin-left: 40px;
+    width: 700px;
+    border: 1px solid #D6D6D6;
+    display: flex;
+    flex-direction: column;
+  }
+  .privacy-line{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 660px;
+    height: 42px;
+    border-bottom:1px solid #D6D6D6;
+  }
+  .privacy-f1{
+    margin-left: 20px;
+    
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+  }
+  .privacy-f2{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:660px; /* 限制宽度 */
+    white-space: normal; /* 允许自动换行 */
+    
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 1.7px;
+    line-height: 38px;
+    color: #1A1A1A;
+  }
+  .privacy-f3{
+    margin-left: 20px;
+
+    width:660px; /* 限制宽度 */
+    margin-top: 20px;
+    
+    font-weight: 500;
+    font-size: 31px;
+    letter-spacing: 1.9px;
+    color: #1A1A1A;
+  }
+.check{
+    margin-left:153px;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+  /* 隐藏原始勾选框 */
+input[type="checkbox"] {
+    width: 39px;
+    height: 39px;
+    accent-color: #DEDEDE;
+}
+.check-f{
+    
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+}
+
+.submit-btn{
+    margin-top: 37px;
+    margin-left: 90px;
+    margin-bottom: 136px;
+    width: 600px;
+    height: 110px;
+    color: #FFFFFF;
+    background-color: #333333;
+    
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: 1.7px;
+}
+.consultpage{
+  width: 780px;
+  background-image: 
+  url('/images/mobile/rectangle2389.png');
+  background-repeat: no-repeat;
+  background-position: 
+  top 250px left 0px;
+  background-size: 780px 1370px; /* 设置具体的宽高 */
+}

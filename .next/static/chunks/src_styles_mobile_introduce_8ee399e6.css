@@ -1,0 +1,206 @@
+/* [project]/src/styles/mobile/introduce.css [app-client] (css) */
+.message-in {
+  width: 700px;
+  margin-top: 80px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile {
+  width: 780px;
+  padding: 90px 40px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.profile-tb {
+  margin-top: 40px;
+  width: 740px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.tb-line {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  width: 100%;
+  border-bottom: 1px solid #cecece;
+  padding: 35px 0;
+}
+
+.tb-f1 {
+  width: 230px;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 1.8px;
+  color: #1a1a1a;
+}
+
+.tb-f2 {
+  flex: 1;
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: 1.7px;
+  line-height: 38px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+.access {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.traffic-way ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.traffic-way li {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-weight: 500;
+  font-size: 26px;
+  letter-spacing: 1.6px;
+}
+
+.traffic-way li:before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #ea5506;
+  border-radius: 50%;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.google {
+  font-weight: 700;
+  font-size: 28px;
+  width: 380px;
+  letter-spacing: 1.7px;
+  border: 2px solid #ea5506;
+  border-radius: 5px;
+  text-align: center;
+  color: #ea5506 !important;
+}
+
+.google a {
+  text-decoration: none;
+  color: #ea5506 !important;
+}
+
+.history {
+  width: 780px;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 40px;
+  position: relative;
+}
+
+.profilebi {
+  background-color: #f8f8f8;
+  position: absolute;
+  width: 680px;
+  height: calc(100% - 180px);
+  left: 0;
+  z-index: -1;
+}
+
+.historybi {
+  background-color: #f8f8f8;
+  position: absolute;
+  width: 680px;
+  height: calc(100% - 60px);
+  left: 100px;
+  z-index: -1;
+}
+
+.history-box {
+  width: 700px;
+  height: 762px;
+  background-color: #fff;
+}
+
+.history-axis {
+  margin-top: 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.axis {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.axis-1 {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  letter-spacing: 0;
+  color: #ea5506;
+}
+
+.axis-2 {
+  position: absolute;
+  left: 224px;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 1.8px;
+  color: #1a1a1a;
+}
+
+.axis-3 {
+  position: absolute;
+  top: 60px;
+  left: 224px;
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: 1.7px;
+  line-height: 35px;
+  color: #8e8e8e;
+}
+
+.history-axis:after {
+  content: "";
+  width: 1px;
+  height: 70%;
+  background-color: #cecece;
+  position: absolute;
+  left: 228px;
+}
+
+.axis:after {
+  left: 183px;
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+.introducepage {
+  width: 780px;
+  background-image: url("/images/mobile/group647.png"), url("/images/mobile/group615.png"), url("/images/mobile/group629.png");
+  background-repeat: no-repeat;
+  background-position: 527.84px 2222px, 602.03px 478.99px, 526px 4884.84px;
+}
+
+
+/*# sourceMappingURL=src_styles_mobile_introduce_8ee399e6.css.map*/

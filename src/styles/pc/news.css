@@ -1,0 +1,241 @@
+
+.nnews-line{
+width: 1960px;
+  margin-left: auto;
+    margin-top: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;     /* 垂直居中 */
+}
+/* 按钮基础样式 */
+.nrequirements-button button {
+    width: 500px;
+    height: 71px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* 未选中的按钮样式 */
+  .nrequirements-button button {
+    color: #B4B4B4;
+    border-bottom: 2px solid #DEDEDE;
+    background-color: transparent;
+  }
+  
+  /* 选中的按钮样式 */
+  .nrequirements-button .active {
+    color: #1A1A1A;
+    border: 2px solid #DEDEDE;  /* 上方有边框 */
+    border-bottom: none;         /* 下方没有边框 */
+  }
+  
+  /* 内容区域 */
+  .nrequirements-container {
+    margin-top: 20px;
+  }
+  
+  /* 新闻列表样式 */
+  .nnews-list {
+    margin-top: 65px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;     /* 垂直居中 */
+  }
+  
+  /* 每一条新闻的详情栏样式 */
+  .nnews-item {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 119px;
+    width: 1000px;
+    border-bottom: 1px solid #DEDEDE;  /* 每条新闻之间的灰色分隔线 */
+    gap: 14px;
+    position: relative;
+  }
+  
+  .nnews-time {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #C9C9C9;
+  }
+  .nnews-t{
+    text-align: center;
+    position: absolute;
+    left: 120px;
+    top: 28px;
+    width: 64px;
+    height: 24px;
+    border: 1px solid #EA5506;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.7px;
+    color: #EA5506;
+  }
+  .nnews-summary {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #333333;
+  }
+  
+  /* 分页样式 */
+  .pagination {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* 分页按钮（向左箭头，数字按钮，向右箭头） */
+  .pagination button {
+    width: 43px;
+    height: 43px;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 18px!important;
+    letter-spacing: 1.4px;
+    color: #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* 禁用状态按钮 */
+  .pagination button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  /* 当前页按钮为黑色背景 */
+  .pagination .active {
+    color: #FFFFFF!important;
+    background-color: black;
+  }
+  
+  
+  /* 向左和向右箭头符号 */
+  .pagination button.arrow {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* 鼠标悬停效果 */
+  .pagination button:hover {
+    background-color: #f0f0f0;
+  }
+/* 新闻列表样式 */
+.news-list {
+  margin-top: 31px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;     /* 垂直居中 */
+}
+
+/* 每一条新闻的详情栏样式 */
+.news-item {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 119px;
+  width: 900px;
+  border-bottom: 1px solid #DEDEDE;  /* 每条新闻之间的灰色分隔线 */
+  gap: 14px;
+  position: relative;
+}
+
+.news-time {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #C9C9C9;
+}
+.news-t{
+  text-align: center;
+  position: absolute;
+  left: 120px;
+  top: 28px;
+  width: 64px;
+  height: 24px;
+  border: 1px solid #EA5506;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.7px;
+  color: #EA5506;
+}
+.news-summary {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #333333;
+}
+.news-line .title{
+  margin-top: 200px;
+  margin-left: 500px;
+  margin-bottom: 150px;
+  width: 530px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-line .title h2{
+  font-size: 90px;
+  font-family: "Poppins";
+}
+
+.news-line .title span{
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.news-line .title span::before {
+  content:"";
+  display: inline-block;
+  width: 79px;
+  height: 1px;
+  background-color: #D8D8D8;
+  vertical-align: middle;
+  margin-right: 30px;
+  margin-top: -10px;
+}
+.no-news {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+  padding: 20px;
+}
+.no-tnews {
+  font-size: 14px;
+  color: #D8D8D8;
+}
+
+  
+  

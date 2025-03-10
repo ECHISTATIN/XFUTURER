@@ -1,0 +1,141 @@
+*, :after, :before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+.consult-box{
+    margin-top: 155px;
+    margin-left: 410px;
+    width: 1100px;
+    height: 960px;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.consult-tb{
+    width: 1000px;
+    height: 870px;
+    background-color: #FFFFFF;
+    padding: 58px 50px;
+    position: relative;
+}
+
+.input-line{
+    width: 900px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 38px;
+}
+
+
+.input-fonts{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1A1A1A;
+}
+
+
+.must{
+    margin-left: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #EA5506;
+}
+
+.input-field {
+    position: absolute;
+    left: 283px;
+    width: 667px;
+    height: 53px;
+    border: 1px solid #CECECE;
+    border-radius: 4px;
+    padding-left: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #8E8E8E;
+  }
+
+  .privacy{
+    margin-top: 36px;
+    margin-left: 460px;
+    width: 1000px;
+    height: 294px;
+    border: 1px solid #D6D6D6;
+    display: flex;
+    flex-direction: column;
+    padding: 47px 50px;
+  }
+  .privacy-line{
+    width: 900px;
+    height: 42px;
+    border-bottom:1px solid #D6D6D6;
+  }
+  .privacy-f1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+  }
+  .privacy-f2{
+    margin-top: 20px;
+    width: 900px; /* 限制宽度 */
+    white-space: normal; /* 允许自动换行 */
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+    line-height: 20px;
+    color: #1A1A1A;
+  }
+  .privacy-f3{
+    margin-top: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.8px;
+    color: #1A1A1A;
+  }
+.check{
+    margin-left: 820px;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+  /* 隐藏原始勾选框 */
+input[type="checkbox"] {
+    width: 28px;
+    height: 28px;
+    accent-color: #DEDEDE;
+}
+.check-f{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+}
+
+.submit-btn{
+    margin-top: 37px;
+    margin-left: 775px;
+    margin-bottom: 136px;
+    width: 370px;
+    height: 70px;
+    color: #FFFFFF;
+    background-color: #333333;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.consultpage{
+  width: 100%;
+
+}

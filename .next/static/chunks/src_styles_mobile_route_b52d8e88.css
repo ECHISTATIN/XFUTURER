@@ -1,0 +1,128 @@
+/* [project]/src/styles/mobile/route.css [app-client] (css) */
+.route-pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 780px;
+  height: 431px;
+  z-index: -1;
+}
+
+.route-select {
+  width: 650px;
+  height: 160px;
+  margin-top: 73px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.route-select:before {
+  position: absolute;
+  content: "";
+  left: -30px;
+  width: 6px;
+  height: 100%;
+  background: linear-gradient(#1a1a1a 50%, #ea5506 50%);
+}
+
+.route-f1 {
+  font-weight: 700;
+  font-size: 46px;
+  letter-spacing: 0;
+  color: #1a1a1a;
+}
+
+.route-f2 {
+  font-weight: 400;
+  font-size: 26px;
+  letter-spacing: .7px;
+  color: #1a1a1a;
+}
+
+.route-f3 {
+  margin-left: 8px;
+  font-weight: 400;
+  font-size: 26px;
+  letter-spacing: .7px;
+  color: #8e8e8e;
+}
+
+.route-line {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.route-line img {
+  margin-left: 11px;
+  width: 7px;
+  height: 7px;
+}
+
+.contact {
+  margin-top: 100px;
+  width: 780px;
+}
+
+.contact-picture img {
+  width: 780px;
+  height: 274px;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  margin-top: -6.8px !important;
+}
+
+.phone {
+  width: 390px;
+  height: 260px;
+  background: linear-gradient(90deg, #333, #000);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message {
+  width: 390px;
+  height: 260px;
+  background: linear-gradient(90deg, #ea5506, #ed9b00);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text1 {
+  width: 310px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 1.9px;
+  color: #fff;
+}
+
+.text2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 26px;
+  letter-spacing: 1.6px;
+  color: #fff;
+}
+
+.message a {
+  text-decoration: none;
+}
+
+.icon-1 {
+  margin-bottom: 20px;
+}
+
+.icon-2 {
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=src_styles_mobile_route_b52d8e88.css.map*/

@@ -1,0 +1,94 @@
+
+.news-page{
+  margin-top: 155px;
+    margin-left: 510px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+.c-title{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.pnews-time {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #C9C9C9;
+  }
+  .pnews-tt{
+    text-align: center;
+    left: 120px;
+    top: 28px;
+    width: 64px;
+    height: 24px;
+    border: 1px solid #EA5506;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.7px;
+    color: #EA5506;
+  }
+  .psummary{
+    margin-top: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+  }
+  .summary-line{
+    height: 2px; /* 线条的高度 */
+    width: 900px; /* 线条的宽度 */
+    background-color: #D2D2D2;
+    margin: 35px auto;
+}
+.bts-line{
+  height: 1px; /* 线条的高度 */
+    width: 71px; /* 线条的宽度 */
+    background-color: #E2E2E2;
+    margin: 10.5px 0px;
+}
+.bts{
+  all: unset;
+  font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #1A1A1A;
+}
+.navigation-buttons{
+  display: flex;
+  justify-content: center;
+}
+.goback{
+  text-align: center;
+  width: 370px;
+  height: 70px;
+  margin: 35px 265px 110px 265px;
+  background-color: #333333;
+  font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+}
+.news-image {
+  display: flex;
+  justify-content: center; /* 横向居中 */
+  align-items: center;     /* 纵向居中 */
+  margin-top: 43px;        /* 可选：设置图片与其他内容的间距 */
+}
+
+.news-image img {
+  max-width: 100%;         /* 确保图片不会超出容器宽度 */
+  height: auto;            /* 自适应图片高度 */
+}
+.pnews-text{
+  font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
