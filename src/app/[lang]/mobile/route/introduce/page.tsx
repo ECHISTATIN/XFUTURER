@@ -35,7 +35,7 @@ export default async function IntroducePage({
 
   return (
     <div className="introducepage">
-      <IntroduceContent lang={lang} translations={t} />
+      <IntroduceContent translations={t} />
     </div>
   )
 }

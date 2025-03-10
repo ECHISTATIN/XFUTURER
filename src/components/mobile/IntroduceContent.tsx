@@ -10,10 +10,8 @@ interface Translations {
 }
 
 export default function IntroduceContent({
-  lang,
   translations: t,
 }: {
-  lang: string
   translations: Translations
 }) {
   const timeline = t.introduce.timeline as { year: string; month: string; event: string }[] || [];
