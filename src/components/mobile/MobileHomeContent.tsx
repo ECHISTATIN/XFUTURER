@@ -207,7 +207,7 @@ export default function MobileHomeContent({
           </div>
 
           <div className="message">
-            <Link href={`/${lang}/mobile/route/consult`}>
+            <Link href={`/${lang}/mobile/route/contact`}>
               <div
                 className="mes"
                 style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}
@@ -223,7 +223,7 @@ export default function MobileHomeContent({
       </section>
 
       <section className="recruit">
-        <Link href={`/${lang}/mobile/route/adopt`}>
+        <Link href={`/${lang}/mobile/route/recruit`}>
           <div className="bkpicture">
             <div className="bkpicture-text-1" style={{ width: '133px' }}>
               {t.top.recruit_text1}

@@ -1,1 +1,4 @@
-{}
+{
+  "/[lang]/pc/top/page": "app/[lang]/pc/top/page.js",
+  "/[lang]/mobile/top/page": "app/[lang]/mobile/top/page.js"
+}

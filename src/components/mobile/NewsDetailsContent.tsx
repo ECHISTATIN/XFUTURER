@@ -20,6 +20,7 @@ interface Translations {
   [key: string]: any; // 根据你的翻译文件结构调整类型
 }
 export default function DetailsPage({
+  lang:lang,
   translations: t,
 }: {
   lang: string;
@@ -124,7 +125,7 @@ export default function DetailsPage({
     };
 
     const goBackToList = () => {
-      router.push("/mobile/route/news");
+      router.push(`/${lang}/mobile/route/news`);
     };
 
     if (loading) {

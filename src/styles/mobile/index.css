@@ -829,14 +829,21 @@ body {
 }
 
 .custom-modal {
-  max-width: 780; /* 设置宽度 */
-  max-height: 100%; /* 设置高度 */
+  max-width: 780px; /* 设置宽度 */
+  max-height: auto; /* 设置高度 */
   margin: auto; /* 居中 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.custom-modal .modal-dialog {
+  height: 600px;
+  display: flex; /* 启用 Flexbox */
+  justify-content: center; /* 水平居中 */
 }
 
 .custom-modal .modal-content {
-  padding: 20px; /* 内容内边距 */
-  border-radius: 10px; /* 圆角 */
+  transform: scale(var(--scale)); /* 使用动态 scale */
 }
 .modal-backdrop {
   width: 780px !important; /* 设置宽度为视口宽度的 80% */
@@ -873,13 +880,13 @@ body .modal-header {
   box-shadow: none; /* 去掉焦点时的阴影 */
 }
 .form-select {
-  width: 660px !important;
+  width: 700px !important;
   height: 100px;
 
   font-weight: 400 !important;
   font-size: 28px !important;
   letter-spacing: 1.7px !important;
-  margin-left: 40px;
+  margin-left: 0px;
   --bs-btn-close-bg: none; /* 去掉默认的背景 */
   background-image: url("/images/mobile/Polygon12.png") !important; /* 使用你的图片作为背景 */
 }
@@ -895,7 +902,7 @@ body .modal-header {
 }
 
 .modal-table td a {
-  margin-left: 40px;
+  margin-left: 0px;
   text-decoration: none; /* 去掉下划线 */
 
   color: #ffffff;
@@ -912,7 +919,6 @@ body .modal-header {
 .mobile-button-box {
   margin-top: 16px;
   display: flex;
-  justify-content: center; /* 水平居中按钮 */
   gap: 20px; /* 按钮之间的间距 */
 }
 
@@ -937,7 +943,6 @@ body .modal-header {
   border: 2px solid white;
 }
 .mobile-phone-box {
-  margin-left: 22px;
   width: 700px;
   height: 130px;
   display: flex;
@@ -965,7 +970,7 @@ body .modal-header {
   padding: 10px; /* 设置内边距 */
   border: 0px solid #ccc; /* 设置边框 */
   background-color: #fff; /* 设置背景色 */
-  width: 660px !important; /* 让选择框填充父容器的宽度 */
+  width: 700px !important; /* 让选择框填充父容器的宽度 */
 }
 .language-selector option {
   margin-left: 60px !important;

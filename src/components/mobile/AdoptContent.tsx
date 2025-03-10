@@ -130,7 +130,7 @@ export default function ServicePage({
         
         <div className='description-line'>
           <span className='title1' style={{textAlign:'left'}}>job description</span>
-          <img src="/images/線 62.png" alt="Contact" style={{
+          <img src="/images/line62.png" alt="Contact" style={{
             height: '1px',
             width: '159px'
           }} />

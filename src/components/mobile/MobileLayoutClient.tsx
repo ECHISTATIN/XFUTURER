@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import ScrollToTop from "./ScrollToTop";
 import { Modal } from "react-bootstrap"; // 引入 Bootstrap 的 Modal 和 Button 组件
-
+import { useScale } from "./ScaleContainer"; // 导入 useScale
 interface Translations {
   [key: string]: any; // 根据你的翻译文件结构调整类型
 }
@@ -22,31 +22,30 @@ export default function MobileLayoutClient({
   const [showModal, setShowModal] = useState(false);
   const settingsRef = useRef<HTMLDivElement>(null);
   const [selectedLanguage, setSelectedLanguage] = useState(lang);
-
+  const scale = useScale(); // 获取 scale 值
   // 处理页面滚动事件
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY
-      const footer = document.querySelector('footer')
-      const footerTop = footer
-        ? footer.getBoundingClientRect().top + window.scrollY
-        : Infinity
-        console.log(scrollPosition)
-        console.log("top"+ footerTop)
-      if (
-        scrollPosition > 500 &&
-        scrollPosition  < footerTop -1000
-      ) {
-        console.log("rrrr")
-        setShowStickyHeader(true)
-      } else {
-        setShowStickyHeader(false)
-      }
-    }
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const scrollPosition = window.scrollY
+  //     const footer = document.querySelector('footer')
+  //     const footerTop = footer
+  //       ? footer.getBoundingClientRect().top + window.scrollY
+  //       : Infinity
+  //       console.log(scrollPosition)
+  //       console.log("top"+ footerTop)
+  //     if (
+  //       scrollPosition > 500 &&
+  //       scrollPosition  < footerTop 
+  //     ) {
+  //       setShowStickyHeader(true)
+  //     } else {
+  //       setShowStickyHeader(false)
+  //     }
+  //   }
 
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+  //   window.addEventListener('scroll', handleScroll)
+  //   return () => window.removeEventListener('scroll', handleScroll)
+  // }, [])
 
   const closeModal = () => setShowModal(false);
   const openModal = () => setShowModal(true);
@@ -71,7 +70,9 @@ export default function MobileLayoutClient({
       : "font-default";
 
   return (
-    <div className={fontClass}>
+    <div className={fontClass}
+    >
+      
       {showStickyHeader && (
         <div className="sticky-header">
           <div className="sticky-logo">
@@ -192,8 +193,8 @@ export default function MobileLayoutClient({
       </footer>
 
       {/* Bootstrap Modal */}
-      <Modal show={showModal} onHide={closeModal} className="custom-modal">
-        <Modal.Header closeButton></Modal.Header>
+      <Modal show={showModal} onHide={closeModal} className="custom-modal" style={{ "--scale": scale } as React.CSSProperties} >
+        <Modal.Header closeButton ></Modal.Header>
         <Modal.Body>
           <div className="language-selector">
             <select

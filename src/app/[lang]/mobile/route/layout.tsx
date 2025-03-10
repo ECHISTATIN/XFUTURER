@@ -37,7 +37,7 @@ export default async function RoutePage({
           </div>
 
           <div className="message">
-            <Link href="/mobile/route/consult">
+            <Link href={`/${lang}/route/contact`}>
               <div
                 className="mes"
                 style={{

@@ -31,7 +31,7 @@ export function middleware(request: NextRequest) {
   if (pathnameHasLocale) return
 
   // 获取用户首选语言
-  const acceptLang = request.headers.get('accept-language') || 'en'
+  const acceptLang = request.headers.get('accept-language') || 'ja'
   const languages = acceptLanguage.parse(acceptLang)
   const preferredLocale = languages[0]?.code
   

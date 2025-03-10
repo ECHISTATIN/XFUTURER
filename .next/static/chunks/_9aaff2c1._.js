@@ -15,7 +15,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 ;
-function DetailsPage({ lang, translations: t }) {
+function DetailsPage({ lang: lang, translations: t }) {
     var _s = __turbopack_context__.k.signature();
     function NewsDetails() {
         _s();
@@ -115,7 +115,7 @@ function DetailsPage({ lang, translations: t }) {
             }
         };
         const goBackToList = ()=>{
-            router.push("/mobile/route/news");
+            router.push(`/${lang}/mobile/route/news`);
         };
         if (loading) {
             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {

@@ -71,29 +71,27 @@ function MobileLayoutClient({ lang, translations: t, children }) {
     const settingsRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     const [selectedLanguage, setSelectedLanguage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(lang);
     // 处理页面滚动事件
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "MobileLayoutClient.useEffect": ()=>{
-            const handleScroll = {
-                "MobileLayoutClient.useEffect.handleScroll": ()=>{
-                    const scrollPosition = window.scrollY;
-                    const footer = document.querySelector('footer');
-                    const footerTop = footer ? footer.getBoundingClientRect().top + window.scrollY : Infinity;
-                    console.log(scrollPosition);
-                    console.log("top" + footerTop);
-                    if (scrollPosition > 500 && scrollPosition < footerTop - 1000) {
-                        console.log("rrrr");
-                        setShowStickyHeader(true);
-                    } else {
-                        setShowStickyHeader(false);
-                    }
-                }
-            }["MobileLayoutClient.useEffect.handleScroll"];
-            window.addEventListener('scroll', handleScroll);
-            return ({
-                "MobileLayoutClient.useEffect": ()=>window.removeEventListener('scroll', handleScroll)
-            })["MobileLayoutClient.useEffect"];
-        }
-    }["MobileLayoutClient.useEffect"], []);
+    // useEffect(() => {
+    //   const handleScroll = () => {
+    //     const scrollPosition = window.scrollY
+    //     const footer = document.querySelector('footer')
+    //     const footerTop = footer
+    //       ? footer.getBoundingClientRect().top + window.scrollY
+    //       : Infinity
+    //       console.log(scrollPosition)
+    //       console.log("top"+ footerTop)
+    //     if (
+    //       scrollPosition > 500 &&
+    //       scrollPosition  < footerTop 
+    //     ) {
+    //       setShowStickyHeader(true)
+    //     } else {
+    //       setShowStickyHeader(false)
+    //     }
+    //   }
+    //   window.addEventListener('scroll', handleScroll)
+    //   return () => window.removeEventListener('scroll', handleScroll)
+    // }, [])
     const closeModal = ()=>setShowModal(false);
     const openModal = ()=>setShowModal(true);
     const handleLanguageChange = (event)=>{
@@ -116,12 +114,12 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                             children: "XFuture"
                         }, void 0, false, {
                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                            lineNumber: 78,
+                            lineNumber: 77,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                        lineNumber: 77,
+                        lineNumber: 76,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -138,6 +136,13 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                             className: "line"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
+                                            lineNumber: 86,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "line"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
                                             lineNumber: 87,
                                             columnNumber: 17
                                         }, this),
@@ -147,23 +152,16 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
                                             lineNumber: 88,
                                             columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "line"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 89,
-                                            columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                    lineNumber: 86,
+                                    lineNumber: 85,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                lineNumber: 81,
+                                lineNumber: 80,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -177,25 +175,25 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                             alt: "Adopt Icon"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 94,
+                                            lineNumber: 93,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: t.adoptpage_m
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 95,
+                                            lineNumber: 94,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                    lineNumber: 93,
+                                    lineNumber: 92,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                lineNumber: 92,
+                                lineNumber: 91,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -209,37 +207,37 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                             alt: "Consult Icon"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 103,
+                                            lineNumber: 102,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: t.contactpage_m
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 104,
+                                            lineNumber: 103,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                    lineNumber: 102,
+                                    lineNumber: 101,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                lineNumber: 98,
+                                lineNumber: 97,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                        lineNumber: 80,
+                        lineNumber: 79,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                lineNumber: 76,
+                lineNumber: 75,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
@@ -252,12 +250,12 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                             children: "XFuture"
                         }, void 0, false, {
                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                            lineNumber: 113,
+                            lineNumber: 112,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                        lineNumber: 112,
+                        lineNumber: 111,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -274,25 +272,25 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                             alt: "Adopt Icon"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 118,
+                                            lineNumber: 117,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: t.adoptpage_m
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 119,
+                                            lineNumber: 118,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                    lineNumber: 117,
+                                    lineNumber: 116,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                lineNumber: 116,
+                                lineNumber: 115,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -306,44 +304,44 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                             alt: "Consult Icon"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 124,
+                                            lineNumber: 123,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: t.contactpage_m
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 125,
+                                            lineNumber: 124,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                    lineNumber: 123,
+                                    lineNumber: 122,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                lineNumber: 122,
+                                lineNumber: 121,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                        lineNumber: 115,
+                        lineNumber: 114,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                lineNumber: 111,
+                lineNumber: 110,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
                 children: children
             }, void 0, false, {
                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                lineNumber: 131,
+                lineNumber: 130,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -358,12 +356,12 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                     children: t.address
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                    lineNumber: 136,
+                                    lineNumber: 135,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                lineNumber: 135,
+                                lineNumber: 134,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -374,20 +372,20 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                         alt: ""
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                        lineNumber: 139,
+                                        lineNumber: 138,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: "03-6826-0688"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                        lineNumber: 140,
+                                        lineNumber: 139,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                lineNumber: 138,
+                                lineNumber: 137,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -401,12 +399,12 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                             children: "Recruit"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 144,
+                                            lineNumber: 143,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                        lineNumber: 143,
+                                        lineNumber: 142,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -417,18 +415,18 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                             children: "Contact"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 150,
+                                            lineNumber: 149,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                        lineNumber: 146,
+                                        lineNumber: 145,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                lineNumber: 142,
+                                lineNumber: 141,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -446,17 +444,17 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                                             children: t.toppage
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                                            lineNumber: 159,
+                                                            lineNumber: 158,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                                        lineNumber: 158,
+                                                        lineNumber: 157,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                                    lineNumber: 157,
+                                                    lineNumber: 156,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
@@ -466,17 +464,17 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                                             children: t.introducepage
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                                            lineNumber: 166,
+                                                            lineNumber: 165,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                                        lineNumber: 165,
+                                                        lineNumber: 164,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                                    lineNumber: 164,
+                                                    lineNumber: 163,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
@@ -486,17 +484,17 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                                             children: t.servicepage
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                                            lineNumber: 173,
+                                                            lineNumber: 172,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                                        lineNumber: 172,
+                                                        lineNumber: 171,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                                    lineNumber: 171,
+                                                    lineNumber: 170,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
@@ -506,38 +504,38 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                                             children: t.newspage
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                                            lineNumber: 180,
+                                                            lineNumber: 179,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                                        lineNumber: 179,
+                                                        lineNumber: 178,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                                    lineNumber: 178,
+                                                    lineNumber: 177,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 156,
+                                            lineNumber: 155,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                        lineNumber: 155,
+                                        lineNumber: 154,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                    lineNumber: 154,
+                                    lineNumber: 153,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                lineNumber: 153,
+                                lineNumber: 152,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -545,24 +543,24 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                 children: t.copyright
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                lineNumber: 189,
+                                lineNumber: 188,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                        lineNumber: 134,
+                        lineNumber: 133,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$mobile$2f$ScrollToTop$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                        lineNumber: 191,
+                        lineNumber: 190,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                lineNumber: 133,
+                lineNumber: 132,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Modal$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Modal$3e$__["Modal"], {
@@ -574,7 +572,7 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                         closeButton: true
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                        lineNumber: 196,
+                        lineNumber: 195,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$bootstrap$2f$esm$2f$Modal$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Modal$3e$__["Modal"].Body, {
@@ -592,7 +590,7 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                             children: "日本語"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 205,
+                                            lineNumber: 204,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -600,7 +598,7 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                             children: "English"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 206,
+                                            lineNumber: 205,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -608,18 +606,18 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                             children: "简体中文"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 207,
+                                            lineNumber: 206,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                    lineNumber: 199,
+                                    lineNumber: 198,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                lineNumber: 198,
+                                lineNumber: 197,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
@@ -634,17 +632,17 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                                     children: t.toppage
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                                    lineNumber: 215,
+                                                    lineNumber: 214,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                                lineNumber: 214,
+                                                lineNumber: 213,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 213,
+                                            lineNumber: 212,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
@@ -654,17 +652,17 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                                     children: t.introducepage
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                                    lineNumber: 222,
+                                                    lineNumber: 221,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                                lineNumber: 221,
+                                                lineNumber: 220,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 220,
+                                            lineNumber: 219,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
@@ -674,17 +672,17 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                                     children: t.servicepage
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                                    lineNumber: 229,
+                                                    lineNumber: 228,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                                lineNumber: 228,
+                                                lineNumber: 227,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 227,
+                                            lineNumber: 226,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
@@ -694,28 +692,28 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                                     children: t.newspage
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                                    lineNumber: 236,
+                                                    lineNumber: 235,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                                lineNumber: 235,
+                                                lineNumber: 234,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 234,
+                                            lineNumber: 233,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                    lineNumber: 212,
+                                    lineNumber: 211,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                lineNumber: 211,
+                                lineNumber: 210,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -726,20 +724,20 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                         alt: ""
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                        lineNumber: 243,
+                                        lineNumber: 242,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "03-6826-0688"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                        lineNumber: 244,
+                                        lineNumber: 243,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                lineNumber: 242,
+                                lineNumber: 241,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -753,12 +751,12 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                             children: t.Recurit
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 249,
+                                            lineNumber: 248,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                        lineNumber: 248,
+                                        lineNumber: 247,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -769,40 +767,40 @@ function MobileLayoutClient({ lang, translations: t, children }) {
                                             children: t.Contact
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                            lineNumber: 253,
+                                            lineNumber: 252,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                        lineNumber: 252,
+                                        lineNumber: 251,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                                lineNumber: 247,
+                                lineNumber: 246,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                        lineNumber: 197,
+                        lineNumber: 196,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-                lineNumber: 195,
+                lineNumber: 194,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/mobile/MobileLayoutClient.tsx",
-        lineNumber: 74,
+        lineNumber: 73,
         columnNumber: 5
     }, this);
 }
-_s(MobileLayoutClient, "DUi9lH5q875ciE8oAr1zsmUiHb0=");
+_s(MobileLayoutClient, "pkXgX4kEL28vujGtmEMLpizWQWY=");
 _c = MobileLayoutClient;
 var _c;
 __turbopack_context__.k.register(_c, "MobileLayoutClient");
@@ -816,45 +814,27 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 var { g: global, d: __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
-    "default": (()=>ScaleContainer)
+    "default": (()=>ScaleContainer),
+    "useScale": (()=>useScale)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 ;
-var _s = __turbopack_context__.k.signature();
-"use client"; // 这个组件是 Client Component
+var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.signature();
+"use client";
 ;
+const ScaleContext = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createContext"])(1);
 function ScaleContainer({ children }) {
     _s();
     const [scale, setScale] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(1);
-    const [scrollbarWidth, setScrollbarWidth] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
-    const [containerHeight, setContainerHeight] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0); // 存储计算后的容器高度
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "ScaleContainer.useEffect": ()=>{
-            const calculateScrollbarWidth = {
-                "ScaleContainer.useEffect.calculateScrollbarWidth": ()=>{
-                    // 动态计算滚动条宽度
-                    return document.documentElement.clientWidth;
-                }
-            }["ScaleContainer.useEffect.calculateScrollbarWidth"];
             const handleResize = {
                 "ScaleContainer.useEffect.handleResize": ()=>{
                     const baseWidth = 780;
-                    // 计算滚动条宽度
-                    const scrollbarWidth = calculateScrollbarWidth();
-                    setScrollbarWidth(scrollbarWidth);
-                    // 计算缩放比例，预留滚动条空间
-                    const newScale = scrollbarWidth / baseWidth;
+                    const windowWidth = document.documentElement.clientWidth;
+                    const newScale = windowWidth / baseWidth;
                     setScale(newScale);
-                    // 计算 .bottom-gray 元素的位置和高度
-                    const bottomGray = document.querySelector(".bottom-gray");
-                    if (bottomGray) {
-                        const rect = bottomGray.getBoundingClientRect();
-                        const bottomGrayHeight = rect.height;
-                        const bottomGrayY = rect.top + window.scrollY; // 获取 .bottom-gray 相对于页面顶部的位置
-                        // 更新容器高度，缩放后的高度应该是 (bottomGrayY + bottomGrayHeight) * scale
-                        setContainerHeight((bottomGrayY + bottomGrayHeight) * newScale);
-                    }
                 }
             }["ScaleContainer.useEffect.handleResize"];
             handleResize();
@@ -863,24 +843,36 @@ function ScaleContainer({ children }) {
                 "ScaleContainer.useEffect": ()=>window.removeEventListener("resize", handleResize)
             })["ScaleContainer.useEffect"];
         }
-    }["ScaleContainer.useEffect"], []); // 空依赖数组，表示只在组件挂载和尺寸变化时执行
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "scale-container",
-        style: {
-            transform: `scale(${scale})`,
-            transformOrigin: "top left",
-            height: `${containerHeight}px`,
-            margin: "0 auto"
-        },
-        children: children
+    }["ScaleContainer.useEffect"], []);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ScaleContext.Provider, {
+        value: scale,
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "scale-container",
+            style: {
+                transform: `scale(${scale})`,
+                transformOrigin: "top left",
+                width: `${100 / scale}%`,
+                height: "auto"
+            },
+            children: children
+        }, void 0, false, {
+            fileName: "[project]/src/components/mobile/ScaleContainer.tsx",
+            lineNumber: 29,
+            columnNumber: 7
+        }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/mobile/ScaleContainer.tsx",
-        lineNumber: 47,
+        lineNumber: 28,
         columnNumber: 5
     }, this);
 }
-_s(ScaleContainer, "grCGdZ5pDd+73m4hiQJ2q7248D0=");
+_s(ScaleContainer, "KDB8pVNB/ljEOP4LSE5RBlu9Ou0=");
 _c = ScaleContainer;
+function useScale() {
+    _s1();
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useContext"])(ScaleContext);
+}
+_s1(useScale, "gDsCjeeItUuvgOWf1v4qoK9RF6k=");
 var _c;
 __turbopack_context__.k.register(_c, "ScaleContainer");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {

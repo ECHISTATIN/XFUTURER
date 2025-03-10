@@ -89,7 +89,7 @@ export default function ServicePage({
   // 事件处理函数示例
   // 修改导航逻辑
   const handleNavigation = (newsIndex: number) => {
-    router.push(`/mobile/route/news/details?section=${activeSection}&index=${newsIndex}&category=${activeSection}`);
+    router.push(`/${lang}/mobile/route/news/details?section=${activeSection}&index=${newsIndex}`);
   };
 
   const newsPerPage = 10;

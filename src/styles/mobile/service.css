@@ -67,7 +67,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-image: url('/images/pixta_83375229_XL_モノクロ-1.png');
+  background-image: url('/images/pixta_83375229_XL_dark-1.png');
 }
 
 .message-rotation {
@@ -158,7 +158,7 @@ width: 560px;
 .rowbi{
   background-color: #FFFFFF;
   position: absolute;
-  width: 700px;
+  width: 660px;
   height: calc(100% - 40px);
   left: -30px;
   top: 50px;

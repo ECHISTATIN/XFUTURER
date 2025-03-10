@@ -12,7 +12,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$shared$2f$lib$2f$app$2d$dynamic$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/shared/lib/app-dynamic.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
 ;
-'use client';
+"use client";
 ;
 ;
 ;
@@ -37,8 +37,8 @@ function IntroduceContent({ lang, translations: t }) {
                         children: t.introduce.company_overview
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 23,
-                        columnNumber: 7
+                        lineNumber: 30,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "route-line",
@@ -48,190 +48,190 @@ function IntroduceContent({ lang, translations: t }) {
                                 children: t.introduce.home
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                lineNumber: 25,
-                                columnNumber: 9
+                                lineNumber: 32,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                 src: "/images/Polygon2.png",
                                 alt: "Contact"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                lineNumber: 26,
-                                columnNumber: 9
+                                lineNumber: 33,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "route-f3",
                                 children: t.introduce.company_overview
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                lineNumber: 27,
-                                columnNumber: 9
+                                lineNumber: 34,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 24,
-                        columnNumber: 7
+                        lineNumber: 31,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                lineNumber: 22,
-                columnNumber: 5
+                lineNumber: 29,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "message-in",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         style: {
-                            fontFamily: 'Poppins, sans-serif',
-                            fontWeight: '600',
-                            fontSize: '75px'
+                            fontFamily: "Poppins, sans-serif",
+                            fontWeight: "600",
+                            fontSize: "75px"
                         },
                         children: "Message"
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 32,
-                        columnNumber: 7
+                        lineNumber: 39,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                         src: "/images/li ne62.png",
                         alt: "Contact",
                         style: {
-                            height: '1px',
-                            width: '159px'
+                            height: "1px",
+                            width: "159px"
                         }
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 38,
-                        columnNumber: 7
+                        lineNumber: 49,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         style: {
-                            marginTop: '-20px',
-                            marginLeft: '168px',
-                            fontWeight: '700',
-                            fontSize: '28px',
-                            letterSpacing: '1.7px'
+                            marginTop: "-20px",
+                            marginLeft: "168px",
+                            fontWeight: "700",
+                            fontSize: "28px",
+                            letterSpacing: "1.7px"
                         },
                         children: t.introduce.message
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 43,
-                        columnNumber: 7
+                        lineNumber: 58,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         style: {
-                            marginTop: '60px',
-                            marginBottom: '60px',
-                            fontWeight: '700',
-                            fontSize: '30px',
-                            letterSpacing: '3.6px',
-                            lineHeight: '60px',
-                            width: '654px',
-                            wordWrap: 'break-word',
-                            wordBreak: 'break-word',
-                            display: 'block' // 强制元素为块级显示
+                            marginTop: "60px",
+                            marginBottom: "60px",
+                            fontWeight: "700",
+                            fontSize: "30px",
+                            letterSpacing: "3.6px",
+                            lineHeight: "60px",
+                            width: "654px",
+                            wordWrap: "break-word",
+                            wordBreak: "break-word",
+                            display: "block"
                         },
                         children: t.introduce.trust_and_growth
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 52,
-                        columnNumber: 7
+                        lineNumber: 71,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
-                            fontWeight: '500',
-                            fontSize: '28px',
-                            letterSpacing: '1.7px',
-                            lineHeight: '57px',
-                            width: '700px',
-                            wordWrap: 'break-word',
-                            wordBreak: 'break-word',
-                            display: 'block' // 强制元素为块级显示
+                            fontWeight: "500",
+                            fontSize: "28px",
+                            letterSpacing: "1.7px",
+                            lineHeight: "57px",
+                            width: "700px",
+                            wordWrap: "break-word",
+                            wordBreak: "break-word",
+                            display: "block"
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: t.introduce.welcome_message
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                lineNumber: 75,
-                                columnNumber: 9
+                                lineNumber: 100,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                lineNumber: 76,
-                                columnNumber: 9
+                                lineNumber: 101,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: t.introduce.welcome_message2
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                lineNumber: 77,
-                                columnNumber: 9
+                                lineNumber: 102,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                lineNumber: 78,
-                                columnNumber: 9
+                                lineNumber: 103,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: t.introduce.welcome_message3
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                lineNumber: 79,
-                                columnNumber: 9
+                                lineNumber: 104,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                lineNumber: 80,
-                                columnNumber: 9
+                                lineNumber: 105,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: t.introduce.welcome_message4
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                lineNumber: 81,
-                                columnNumber: 9
+                                lineNumber: 106,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                lineNumber: 82,
-                                columnNumber: 9
+                                lineNumber: 107,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: t.introduce.welcome_message5
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                lineNumber: 83,
-                                columnNumber: 9
+                                lineNumber: 108,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 65,
-                        columnNumber: 7
+                        lineNumber: 88,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         style: {
-                            marginTop: '40px',
-                            marginLeft: '400px',
-                            fontWeight: '700',
-                            fontSize: '26px',
-                            letterSpacing: '1.6px',
-                            lineHeight: '33px'
+                            marginTop: "40px",
+                            marginLeft: "400px",
+                            fontWeight: "700",
+                            fontSize: "26px",
+                            letterSpacing: "1.6px",
+                            lineHeight: "33px"
                         },
                         children: t.introduce.ceo_name
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 86,
-                        columnNumber: 7
+                        lineNumber: 111,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                lineNumber: 31,
-                columnNumber: 5
+                lineNumber: 38,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "profile",
@@ -240,62 +240,62 @@ function IntroduceContent({ lang, translations: t }) {
                         className: "profilebi"
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 98,
-                        columnNumber: 7
+                        lineNumber: 127,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         style: {
-                            fontFamily: 'Poppins, sans-serif',
-                            fontWeight: '600',
-                            fontSize: '75px'
+                            fontFamily: "Poppins, sans-serif",
+                            fontWeight: "600",
+                            fontSize: "75px"
                         },
                         children: "Company profile"
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 99,
-                        columnNumber: 7
+                        lineNumber: 128,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                         src: "/images/line62.png",
                         alt: "Contact",
                         style: {
-                            height: '1px',
-                            width: '159px'
+                            height: "1px",
+                            width: "159px"
                         }
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 105,
-                        columnNumber: 7
+                        lineNumber: 138,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         style: {
-                            marginTop: '-20px',
-                            marginLeft: '188px',
-                            fontWeight: '700',
-                            fontSize: '28px',
-                            letterSpacing: '1.7px'
+                            marginTop: "-20px",
+                            marginLeft: "188px",
+                            fontWeight: "700",
+                            fontSize: "28px",
+                            letterSpacing: "1.7px"
                         },
                         children: t.introduce.company_profile
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 110,
-                        columnNumber: 7
+                        lineNumber: 147,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "profile-tb",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             style: {
-                                marginLeft: '60px',
-                                marginTop: '70px',
-                                marginBottom: '65px',
-                                width: '580px',
-                                borderSpacing: '0'
+                                marginLeft: "60px",
+                                marginTop: "70px",
+                                marginBottom: "65px",
+                                width: "580px",
+                                borderSpacing: "0"
                             },
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "tb-line",
                                     style: {
-                                        borderTop: '1px solid #CECECE'
+                                        borderTop: "1px solid #CECECE"
                                     },
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -303,22 +303,22 @@ function IntroduceContent({ lang, translations: t }) {
                                             children: t.introduce.company_name
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 127,
-                                            columnNumber: 13
+                                            lineNumber: 170,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "tb-f2",
                                             children: t.introduce.company_name_value
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 128,
-                                            columnNumber: 13
+                                            lineNumber: 171,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                    lineNumber: 126,
-                                    columnNumber: 11
+                                    lineNumber: 169,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "tb-line",
@@ -328,22 +328,22 @@ function IntroduceContent({ lang, translations: t }) {
                                             children: t.introduce.establishment_date
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 131,
-                                            columnNumber: 13
+                                            lineNumber: 174,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "tb-f2",
                                             children: t.introduce.establishment_date_value
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 132,
-                                            columnNumber: 13
+                                            lineNumber: 175,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                    lineNumber: 130,
-                                    columnNumber: 11
+                                    lineNumber: 173,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "tb-line",
@@ -353,22 +353,22 @@ function IntroduceContent({ lang, translations: t }) {
                                             children: t.introduce.address
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 135,
-                                            columnNumber: 13
+                                            lineNumber: 180,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "tb-f2",
                                             children: t.introduce.address_value
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 136,
-                                            columnNumber: 13
+                                            lineNumber: 181,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                    lineNumber: 134,
-                                    columnNumber: 11
+                                    lineNumber: 179,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "tb-line",
@@ -378,22 +378,22 @@ function IntroduceContent({ lang, translations: t }) {
                                             children: t.introduce.ceo
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 139,
-                                            columnNumber: 13
+                                            lineNumber: 184,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "tb-f2",
                                             children: t.introduce.ceo_value
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 140,
-                                            columnNumber: 13
+                                            lineNumber: 185,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                    lineNumber: 138,
-                                    columnNumber: 11
+                                    lineNumber: 183,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "tb-line",
@@ -403,22 +403,22 @@ function IntroduceContent({ lang, translations: t }) {
                                             children: t.introduce.capital
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 143,
-                                            columnNumber: 13
+                                            lineNumber: 188,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "tb-f2",
                                             children: t.introduce.capital_value
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 144,
-                                            columnNumber: 13
+                                            lineNumber: 189,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                    lineNumber: 142,
-                                    columnNumber: 11
+                                    lineNumber: 187,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "tb-line",
@@ -428,22 +428,22 @@ function IntroduceContent({ lang, translations: t }) {
                                             children: t.introduce.business_hours
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 147,
-                                            columnNumber: 13
+                                            lineNumber: 192,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "tb-f2",
                                             children: t.introduce.business_hours_value
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 148,
-                                            columnNumber: 13
+                                            lineNumber: 193,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                    lineNumber: 146,
-                                    columnNumber: 11
+                                    lineNumber: 191,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "tb-line",
@@ -453,8 +453,8 @@ function IntroduceContent({ lang, translations: t }) {
                                             children: t.introduce.main_banks
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 151,
-                                            columnNumber: 13
+                                            lineNumber: 196,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "tb-f2",
@@ -463,27 +463,27 @@ function IntroduceContent({ lang, translations: t }) {
                                                     children: t.introduce.main_banks_value
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                                    lineNumber: 153,
-                                                    columnNumber: 15
+                                                    lineNumber: 198,
+                                                    columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: t.introduce.main_banks_value2
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                                    lineNumber: 154,
-                                                    columnNumber: 15
+                                                    lineNumber: 199,
+                                                    columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 152,
-                                            columnNumber: 13
+                                            lineNumber: 197,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                    lineNumber: 150,
-                                    columnNumber: 11
+                                    lineNumber: 195,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "tb-line",
@@ -493,22 +493,22 @@ function IntroduceContent({ lang, translations: t }) {
                                             children: t.introduce.holidays
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 158,
-                                            columnNumber: 13
+                                            lineNumber: 203,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "tb-f2",
                                             children: t.introduce.holidays_value
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 159,
-                                            columnNumber: 13
+                                            lineNumber: 204,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                    lineNumber: 157,
-                                    columnNumber: 11
+                                    lineNumber: 202,
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "tb-line",
@@ -518,180 +518,181 @@ function IntroduceContent({ lang, translations: t }) {
                                             children: t.introduce.business_activities
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 162,
-                                            columnNumber: 13
+                                            lineNumber: 207,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "tb-f2",
                                             style: {
-                                                display: 'flex',
-                                                flexDirection: 'column'
+                                                display: "flex",
+                                                flexDirection: "column"
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: t.introduce.business_activities_value1
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                                    lineNumber: 166,
-                                                    columnNumber: 16
+                                                    lineNumber: 215,
+                                                    columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: t.introduce.business_activities_value2
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                                    lineNumber: 167,
-                                                    columnNumber: 13
+                                                    lineNumber: 216,
+                                                    columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 163,
-                                            columnNumber: 13
+                                            lineNumber: 208,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                    lineNumber: 161,
-                                    columnNumber: 11
+                                    lineNumber: 206,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                            lineNumber: 119,
-                            columnNumber: 9
+                            lineNumber: 160,
+                            columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 118,
-                        columnNumber: 7
+                        lineNumber: 159,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                lineNumber: 97,
-                columnNumber: 5
+                lineNumber: 126,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "access",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
-                            display: 'flex',
-                            flexDirection: 'column',
-                            width: '100%',
-                            alignItems: 'center'
+                            display: "flex",
+                            flexDirection: "column",
+                            width: "100%",
+                            alignItems: "center"
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 style: {
-                                    fontFamily: 'Poppins, sans-serif',
-                                    marginTop: '30px',
-                                    fontWeight: '600',
-                                    fontSize: '75px'
+                                    fontFamily: "Poppins, sans-serif",
+                                    marginTop: "30px",
+                                    fontWeight: "600",
+                                    fontSize: "75px"
                                 },
                                 children: "Access"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                lineNumber: 180,
-                                columnNumber: 7
+                                lineNumber: 232,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 style: {
-                                    marginTop: '-30px',
-                                    marginBottom: '20px',
-                                    fontWeight: '700',
-                                    fontSize: '28px',
-                                    letterSpacing: '1.7px'
+                                    marginTop: "-30px",
+                                    marginBottom: "20px",
+                                    fontWeight: "700",
+                                    fontSize: "28px",
+                                    letterSpacing: "1.7px"
                                 },
                                 children: t.introduce.access
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                lineNumber: 188,
-                                columnNumber: 7
+                                lineNumber: 243,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 174,
-                        columnNumber: 5
+                        lineNumber: 224,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(MapComponent, {}, void 0, false, {
                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                            lineNumber: 197,
-                            columnNumber: 9
+                            lineNumber: 256,
+                            columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 196,
-                        columnNumber: 7
+                        lineNumber: 255,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         style: {
-                            marginTop: '23px',
-                            fontWeight: '700',
-                            fontSize: '30px',
-                            letterSpacing: '1.8px'
+                            marginTop: "23px",
+                            fontWeight: "700",
+                            fontSize: "30px",
+                            letterSpacing: "1.8px"
                         },
                         children: t.introduce.xfuture
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 200,
-                        columnNumber: 7
+                        lineNumber: 259,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         style: {
-                            marginTop: '4px',
-                            fontWeight: '400',
-                            fontSize: '26px',
-                            letterSpacing: '1.6px',
-                            width: '700px',
-                            lineHeight: '38px',
-                            wordWrap: 'break-word',
-                            wordBreak: 'break-word',
-                            display: 'block' // 强制元素为块级显示
+                            marginTop: "4px",
+                            fontWeight: "400",
+                            fontSize: "26px",
+                            letterSpacing: "1.6px",
+                            width: "700px",
+                            lineHeight: "38px",
+                            wordWrap: "break-word",
+                            wordBreak: "break-word",
+                            display: "block"
                         },
                         children: t.introduce.address_full_1
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 207,
-                        columnNumber: 7
+                        lineNumber: 270,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         style: {
-                            fontWeight: '400',
-                            fontSize: '26px',
-                            letterSpacing: '1.6px',
-                            width: '700px',
-                            lineHeight: '38px',
-                            wordWrap: 'break-word',
-                            wordBreak: 'break-word',
-                            display: 'block' // 强制元素为块级显示
+                            fontWeight: "400",
+                            fontSize: "26px",
+                            letterSpacing: "1.6px",
+                            width: "700px",
+                            lineHeight: "38px",
+                            wordWrap: "break-word",
+                            wordBreak: "break-word",
+                            display: "block"
                         },
                         children: t.introduce.address_full_2
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 218,
-                        columnNumber: 15
+                        lineNumber: 285,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "traffic",
                         style: {
-                            display: 'flex',
-                            marginTop: '21px',
-                            alignItems: 'center'
+                            display: "flex",
+                            marginTop: "21px",
+                            alignItems: "center"
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                 src: "/images/group630.png",
+                                alt: "group630",
                                 style: {
-                                    width: '34px',
-                                    height: '46px'
+                                    width: "34px",
+                                    height: "46px"
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                lineNumber: 234,
-                                columnNumber: 9
+                                lineNumber: 308,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "traffic-way",
@@ -701,39 +702,39 @@ function IntroduceContent({ lang, translations: t }) {
                                             children: t.introduce.station_access1
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 240,
-                                            columnNumber: 13
+                                            lineNumber: 318,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: t.introduce.station_access2
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 241,
-                                            columnNumber: 13
+                                            lineNumber: 319,
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: t.introduce.station_access3
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                            lineNumber: 242,
-                                            columnNumber: 13
+                                            lineNumber: 320,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                    lineNumber: 239,
-                                    columnNumber: 11
+                                    lineNumber: 317,
+                                    columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                lineNumber: 238,
-                                columnNumber: 9
+                                lineNumber: 316,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 229,
-                        columnNumber: 7
+                        lineNumber: 300,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "google",
@@ -744,19 +745,19 @@ function IntroduceContent({ lang, translations: t }) {
                             children: t.introduce.view_google_map
                         }, void 0, false, {
                             fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                            lineNumber: 248,
-                            columnNumber: 9
+                            lineNumber: 326,
+                            columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 247,
-                        columnNumber: 7
+                        lineNumber: 325,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                lineNumber: 173,
-                columnNumber: 5
+                lineNumber: 223,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "history",
@@ -765,48 +766,48 @@ function IntroduceContent({ lang, translations: t }) {
                         className: "historybi"
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 255,
-                        columnNumber: 7
+                        lineNumber: 337,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
-                            marginTop: '70px',
-                            display: 'flex',
-                            flexDirection: 'column',
-                            width: '100%',
-                            alignItems: 'center'
+                            marginTop: "70px",
+                            display: "flex",
+                            flexDirection: "column",
+                            width: "100%",
+                            alignItems: "center"
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 style: {
-                                    fontFamily: 'Poppins, sans-serif',
-                                    fontWeight: '600',
-                                    fontSize: '75px'
+                                    fontFamily: "Poppins, sans-serif",
+                                    fontWeight: "600",
+                                    fontSize: "75px"
                                 },
                                 children: "History"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                lineNumber: 263,
-                                columnNumber: 9
+                                lineNumber: 347,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 style: {
-                                    marginTop: '-30px',
-                                    fontWeight: '700',
-                                    fontSize: '28px',
-                                    letterSpacing: '1.7px'
+                                    marginTop: "-30px",
+                                    fontWeight: "700",
+                                    fontSize: "28px",
+                                    letterSpacing: "1.7px"
                                 },
                                 children: t.introduce.history
                             }, void 0, false, {
                                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                lineNumber: 269,
-                                columnNumber: 7
+                                lineNumber: 357,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 256,
-                        columnNumber: 7
+                        lineNumber: 338,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "history-axis",
@@ -821,46 +822,46 @@ function IntroduceContent({ lang, translations: t }) {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                        lineNumber: 280,
-                                        columnNumber: 7
+                                        lineNumber: 372,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "axis-2",
                                         children: event.month
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                        lineNumber: 281,
-                                        columnNumber: 7
+                                        lineNumber: 373,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "axis-3",
                                         children: event.event
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                        lineNumber: 282,
-                                        columnNumber: 7
+                                        lineNumber: 374,
+                                        columnNumber: 15
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                                lineNumber: 279,
-                                columnNumber: 5
+                                lineNumber: 371,
+                                columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                        lineNumber: 277,
-                        columnNumber: 1
+                        lineNumber: 369,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-                lineNumber: 254,
-                columnNumber: 5
+                lineNumber: 336,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/mobile/IntroduceContent.tsx",
-        lineNumber: 21,
+        lineNumber: 28,
         columnNumber: 5
     }, this);
 }

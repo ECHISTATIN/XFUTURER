@@ -55,7 +55,7 @@ function middleware(request) {
     const pathnameHasLocale = locales.some((locale)=>pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`);
     if (pathnameHasLocale) return;
     // 获取用户首选语言
-    const acceptLang = request.headers.get('accept-language') || 'en';
+    const acceptLang = request.headers.get('accept-language') || 'ja';
     const languages = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$accept$2d$language$2d$parser$2f$index$2e$js__$5b$middleware$2d$edge$5d$__$28$ecmascript$29$__["parse"])(acceptLang);
     const preferredLocale = languages[0]?.code;
     // 选择匹配的语言或默认语言

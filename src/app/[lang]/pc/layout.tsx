@@ -16,7 +16,8 @@ export default async function LocaleLayout({
   const { lang } = await params;
   const t = await getTranslations(lang);
   return (
-    <>
+    <html lang="ja">
+      <body>
       <ScaleContainer>
         {/* 头部区域 */}
         <header className="header">
@@ -127,6 +128,7 @@ export default async function LocaleLayout({
           <div className="bottom-gray"></div>
         </footer>
       </ScaleContainer>
-    </>
+      </body>
+    </html>
   );
 }
