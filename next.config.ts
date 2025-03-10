@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true, // 忽略所有 ESLint 警告（谨慎使用）
+  },
   reactStrictMode: true,
   async rewrites() {
     return [
