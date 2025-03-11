@@ -26,7 +26,7 @@ body {
   margin: 27px 600px 17px 45px;
   background-image: var(
     --logo-image,
-    url(../../public/images/logo_color.png)
+    url(../../public/images/xfuture_logo.png)
   ); /* 使用CSS变量 */
   font-size: 0;
   transition: background-image 0.3s ease; /* 添加过渡效果 */

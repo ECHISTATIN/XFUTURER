@@ -33,7 +33,7 @@ export default function ScaleContainer({
           transform: `scale(${scale})`,
           transformOrigin: "top left",
           width: `${100 / scale}%`,
-          height: "auto",
+          height: "0px",
         }}
       >
         {children}

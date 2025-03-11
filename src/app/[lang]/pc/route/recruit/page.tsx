@@ -13,8 +13,9 @@ export async function generateMetadata({
   const t = await getTranslations(lang)
 
   return {
-    title: t.adopt.title || 'Recruit',
-    description: t.adopt.introduction1 || 'We are looking for partners to create future IT together',
+    title: t.adoptpage,
+    description: t.adopt_meta_d,
+    keywords: [t["keyword1"], t["keyword2"], t["keyword3"], t["keyword4"], t["keyword5"], t["keyword6"], t["keyword7"], t["keyword8"], t["keyword9"], t["keyword10"], t["keyword11"], t["keyword12"]], // 添加关键词
     alternates: {
       canonical: `/${lang}/route/adopt`,
       languages: {

@@ -17,6 +17,8 @@ export async function generateMetadata({
   return {
     title: t.toppage,
     description: t.toppage_description,
+    keywords: [t["keyword1"], t["keyword2"], t["keyword3"], t["keyword4"], t["keyword5"], t["keyword6"], t["keyword7"], t["keyword8"], t["keyword9"], t["keyword10"], t["keyword11"], t["keyword12"]], // 添加关键词
+    icons:"/images/xfuture_logo.png",
     alternates: {
       canonical: `/${lang}/top`,
       languages: {
@@ -152,8 +154,12 @@ export default async function PCTopPage({
                   <p style={{ width: "451px", marginTop: "20px" }}>
                     {t.top.service_text1}
                   </p>
-                  <Link href={`/${lang}/route/service`}>
-                    <span>View more</span>
+                  <Link href={`/${lang}/route/service`} style={{
+                    textDecoration:'none',
+                  }}>
+                    <span style={{
+                      color:"#333333"
+                    }}>View more</span>
                   </Link>
                 </div>
                 <div className="image">
@@ -185,8 +191,12 @@ export default async function PCTopPage({
                   <p style={{ width: "451px", marginTop: "20px" }}>
                     {t.top.service_text3}
                   </p>
-                  <Link href={`/${lang}/route/service`}>
-                    <span>View more</span>
+                  <Link href={`/${lang}/route/service`}style={{
+                    textDecoration:'none',
+                  }}>
+                  <span style={{
+                      color:"#333333"
+                    }}>View more</span>
                   </Link>
                 </div>
               </div>

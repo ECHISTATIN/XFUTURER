@@ -85,7 +85,9 @@ export default function NewsSection({
       </div>
 
       <div className="go-news_blog">
-        <Link href={`/${lang}/route/news`}>
+        <Link href={`/${lang}/route/news`} style={{
+                    textDecoration:'none',
+                  }}>
           <div className="topgobutton">
             <span>{translations.news_text4}</span>
           </div>

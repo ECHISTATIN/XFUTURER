@@ -48,7 +48,7 @@ export default function TopCarousel({
     const logoUrl =
       typeof currentImage === 'string' && currentImage === '/images/top/pixta_80797973_L.png'
         ? 'url(/images/logo_color2.png)'
-        : 'url(/images/logo_color.png)'
+        : 'url(/images/xfuture_logo.png)'
     document.documentElement.style.setProperty('--logo-image', logoUrl)
     return () => {
       document.documentElement.style.setProperty('--logo-image', 'url(/images/logo_color.png)')

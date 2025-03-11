@@ -12,8 +12,9 @@ export async function generateMetadata({
   const t = await getTranslations(lang);
 
   return {
-    title: t.newspage || "News Title",
-    description: "Details of a news or blog post",
+    title: t.newspage,
+    description:t.news_meta_d,
+    keywords: [t["keyword1"], t["keyword2"], t["keyword3"], t["keyword4"], t["keyword5"], t["keyword6"], t["keyword7"], t["keyword8"], t["keyword9"], t["keyword10"], t["keyword11"], t["keyword12"]], // 添加关键词
     alternates: {
       canonical: `/${lang}/route/news/details`,
       languages: {

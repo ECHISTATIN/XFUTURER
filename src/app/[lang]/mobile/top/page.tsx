@@ -68,9 +68,9 @@ export async function generateMetadata({
   const t = await getTranslations(lang);
 
   return {
-    title: t["top.rotate_t1"] || "Beyond a comfortable future",
-    description:
-      t["top.intr_wwa1"] || "We are a company focused on IT solutions",
+    title: t["toppage"],
+    description: t["top_meta_d"],
+    keywords: [t["keyword1"], t["keyword2"], t["keyword3"], t["keyword4"], t["keyword5"], t["keyword6"], t["keyword7"], t["keyword8"], t["keyword9"], t["keyword10"], t["keyword11"], t["keyword12"]], // 添加关键词
     alternates: {
       canonical: `/${lang}/mobile`,
       languages: {
