@@ -75,8 +75,22 @@ async function generateMetadata({ params }) {
     const { lang } = await params;
     const t = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$i18n$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getTranslations"])(lang);
     return {
-        title: t.adopt.title || 'Recruit',
-        description: t.adopt.introduction1 || 'We are looking for partners to create future IT together',
+        title: t.adoptpage,
+        description: t.adopt_meta_d,
+        keywords: [
+            t["keyword1"],
+            t["keyword2"],
+            t["keyword3"],
+            t["keyword4"],
+            t["keyword5"],
+            t["keyword6"],
+            t["keyword7"],
+            t["keyword8"],
+            t["keyword9"],
+            t["keyword10"],
+            t["keyword11"],
+            t["keyword12"]
+        ],
         alternates: {
             canonical: `/${lang}/route/adopt`,
             languages: {
@@ -97,12 +111,12 @@ async function AdoptPage({ params }) {
             translations: t
         }, void 0, false, {
             fileName: "[project]/src/app/[lang]/mobile/route/recruit/page.tsx",
-            lineNumber: 37,
+            lineNumber: 38,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/[lang]/mobile/route/recruit/page.tsx",
-        lineNumber: 36,
+        lineNumber: 37,
         columnNumber: 5
     }, this);
 }

@@ -1,6 +1,8 @@
 import { getTranslations } from "@/lib/i18n";
 import MobileLayoutClient from "@/components/mobile/MobileLayoutClient";
 import ScaleContainer from "@/components/mobile/ScaleContainer";
+import StickyHeader from "@/components/mobile/stickyHeader";
+
 import "@/styles/mobile/route.css";
 import "@/styles/mobile/index.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,6 +20,7 @@ export default async function MobileLayout({
   return (
     <html lang="ja">
       <body>
+        <StickyHeader lang={lang} translations={t}> </StickyHeader>
         <ScaleContainer>
           <MobileLayoutClient lang={lang} translations={t}>
             {children}

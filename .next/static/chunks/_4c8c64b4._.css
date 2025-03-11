@@ -768,7 +768,7 @@ body {
 .sticky-header {
   width: 780px;
   height: 125px;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1000;
   display: flex;

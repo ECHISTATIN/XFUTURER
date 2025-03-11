@@ -18,6 +18,7 @@ export default function ScaleContainer({
       const newScale = windowWidth > baseWidth ? 1 : windowWidth / baseWidth;
 
       setScale(newScale);
+      document.documentElement.style.setProperty('--scale', newScale.toString());
     };
 
     handleResize();
