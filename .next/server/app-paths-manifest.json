@@ -1,14 +1,12 @@
 {
   "/[lang]/pc/top/page": "app/[lang]/pc/top/page.js",
-  "/[lang]/mobile/top/page": "app/[lang]/mobile/top/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/[lang]/pc/route/service/page": "app/[lang]/pc/route/service/page.js",
-  "/[lang]/pc/route/news/page": "app/[lang]/pc/route/news/page.js",
-  "/[lang]/pc/route/introduce/page": "app/[lang]/pc/route/introduce/page.js",
-  "/[lang]/pc/route/recruit/page": "app/[lang]/pc/route/recruit/page.js",
-  "/[lang]/pc/route/contact/page": "app/[lang]/pc/route/contact/page.js",
-  "/[lang]/mobile/route/recruit/page": "app/[lang]/mobile/route/recruit/page.js",
   "/[lang]/mobile/route/contact/page": "app/[lang]/mobile/route/contact/page.js",
+  "/[lang]/mobile/top/page": "app/[lang]/mobile/top/page.js",
+  "/[lang]/mobile/route/service/page": "app/[lang]/mobile/route/service/page.js",
+  "/[lang]/mobile/route/introduce/page": "app/[lang]/mobile/route/introduce/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/[lang]/mobile/route/news/page": "app/[lang]/mobile/route/news/page.js",
-  "/[lang]/mobile/route/service/page": "app/[lang]/mobile/route/service/page.js"
+  "/[lang]/mobile/route/recruit/page": "app/[lang]/mobile/route/recruit/page.js",
+  "/[lang]/pc/route/recruit/page": "app/[lang]/pc/route/recruit/page.js",
+  "/[lang]/pc/route/contact/page": "app/[lang]/pc/route/contact/page.js"
 }

@@ -168,7 +168,7 @@ export default function MobileLayoutClient({
           </div>
 
           <div className="mobile-button-box">
-            <Link href={`/${lang}/mobile/route/recurit`} className="adopt-link">
+            <Link href={`/${lang}/mobile/route/recruit`} className="adopt-link">
               <button className="topbutton">{t.Recurit as string}</button>
             </Link>
 

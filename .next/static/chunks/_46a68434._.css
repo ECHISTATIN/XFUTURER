@@ -1,5 +1,5 @@
 /* [project]/public/images/xfuture_logo.png (static in css) */
-/* embedded static asset "/_next/static/media/xfuture_logo.714f6b50.png" */
+/* embedded static asset "/_next/static/media/xfuture_logo.ac0be298.png" */
 
 /* [project]/src/styles/globals.css [app-client] (css) */
 @tailwind base;
@@ -28,7 +28,9 @@ html, body {
   width: 151px;
   height: 66px;
   margin: 27px 600px 17px 45px;
-  background-image: var(--logo-image, url("../media/xfuture_logo.714f6b50.png"));
+  background-image: var(--logo-image, url("../media/xfuture_logo.ac0be298.png"));
+  background-size: 150px;
+  background-repeat: no-repeat;
   font-size: 0;
   transition: background-image .3s;
 }

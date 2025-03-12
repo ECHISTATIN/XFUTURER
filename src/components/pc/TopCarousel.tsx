@@ -72,6 +72,7 @@ export default function TopCarousel({
                 src={image}
                 alt={`Slide ${index + 1}`}
                 className={`slide ${index === currentIndex ? 'active' : ''}`}
+               
               />
             )
           } else {

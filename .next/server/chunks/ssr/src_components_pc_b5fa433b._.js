@@ -70,7 +70,7 @@ function TopCarousel({ images, lang, initialNewsData, translations }) {
                                     className: "image-bb"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/pc/TopCarousel.tsx",
-                                    lineNumber: 83,
+                                    lineNumber: 84,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -79,13 +79,13 @@ function TopCarousel({ images, lang, initialNewsData, translations }) {
                                     className: "image-aa"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/pc/TopCarousel.tsx",
-                                    lineNumber: 84,
+                                    lineNumber: 85,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, index, true, {
                             fileName: "[project]/src/components/pc/TopCarousel.tsx",
-                            lineNumber: 79,
+                            lineNumber: 80,
                             columnNumber: 15
                         }, this);
                     }
@@ -103,7 +103,7 @@ function TopCarousel({ images, lang, initialNewsData, translations }) {
                         children: "Beyond a comfortable future"
                     }, void 0, false, {
                         fileName: "[project]/src/components/pc/TopCarousel.tsx",
-                        lineNumber: 91,
+                        lineNumber: 92,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -111,7 +111,7 @@ function TopCarousel({ images, lang, initialNewsData, translations }) {
                         children: translations.rotate_t1
                     }, void 0, false, {
                         fileName: "[project]/src/components/pc/TopCarousel.tsx",
-                        lineNumber: 92,
+                        lineNumber: 93,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -119,13 +119,13 @@ function TopCarousel({ images, lang, initialNewsData, translations }) {
                         children: translations.rotate_t2
                     }, void 0, false, {
                         fileName: "[project]/src/components/pc/TopCarousel.tsx",
-                        lineNumber: 93,
+                        lineNumber: 94,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/pc/TopCarousel.tsx",
-                lineNumber: 90,
+                lineNumber: 91,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -135,7 +135,7 @@ function TopCarousel({ images, lang, initialNewsData, translations }) {
                         children: "News"
                     }, void 0, false, {
                         fileName: "[project]/src/components/pc/TopCarousel.tsx",
-                        lineNumber: 96,
+                        lineNumber: 97,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -147,7 +147,7 @@ function TopCarousel({ images, lang, initialNewsData, translations }) {
                                     children: newsData[0].time
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/pc/TopCarousel.tsx",
-                                    lineNumber: 100,
+                                    lineNumber: 101,
                                     columnNumber: 15
                                 }, this),
                                 " ",
@@ -156,25 +156,25 @@ function TopCarousel({ images, lang, initialNewsData, translations }) {
                                     children: newsData[0].summary
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/pc/TopCarousel.tsx",
-                                    lineNumber: 101,
+                                    lineNumber: 102,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/pc/TopCarousel.tsx",
-                            lineNumber: 99,
+                            lineNumber: 100,
                             columnNumber: 13
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "no-tnews",
                             children: translations.noContent
                         }, void 0, false, {
                             fileName: "[project]/src/components/pc/TopCarousel.tsx",
-                            lineNumber: 104,
+                            lineNumber: 105,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/pc/TopCarousel.tsx",
-                        lineNumber: 97,
+                        lineNumber: 98,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -184,13 +184,13 @@ function TopCarousel({ images, lang, initialNewsData, translations }) {
                         onClick: handleNavigation
                     }, void 0, false, {
                         fileName: "[project]/src/components/pc/TopCarousel.tsx",
-                        lineNumber: 107,
+                        lineNumber: 108,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/pc/TopCarousel.tsx",
-                lineNumber: 95,
+                lineNumber: 96,
                 columnNumber: 7
             }, this)
         ]

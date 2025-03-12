@@ -47,7 +47,7 @@ export default function IntroduceContent({
         </span>
 
         <img
-          src="/images/li ne62.png"
+          src="/images/line62.png"
           alt="Contact"
           style={{
             height: "1px",
