@@ -102,10 +102,10 @@
     color: #1A1A1A;
   }
 .check{
-    margin-left: 820px;
     margin-top: 35px;
     display: flex;
     align-items: center;
+    justify-self: center;
     gap: 13px;
 }
   /* 隐藏原始勾选框 */

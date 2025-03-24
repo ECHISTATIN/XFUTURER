@@ -425,9 +425,7 @@ function ConsultForm({ translations: t }) {
                 style: {
                     display: 'flex',
                     alignItems: 'center',
-                    width: '717px',
                     height: '54px',
-                    marginLeft: '602px',
                     marginTop: '70px',
                     flexDirection: 'column'
                 },
@@ -444,7 +442,7 @@ function ConsultForm({ translations: t }) {
                         children: t.consult.agree1
                     }, void 0, false, {
                         fileName: "[project]/src/components/pc/ConsultForm.tsx",
-                        lineNumber: 283,
+                        lineNumber: 281,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -459,7 +457,7 @@ function ConsultForm({ translations: t }) {
                         children: t.consult.agree2
                     }, void 0, false, {
                         fileName: "[project]/src/components/pc/ConsultForm.tsx",
-                        lineNumber: 295,
+                        lineNumber: 293,
                         columnNumber: 9
                     }, this)
                 ]
@@ -478,12 +476,12 @@ function ConsultForm({ translations: t }) {
                             children: t.consult.privacyPolicy
                         }, void 0, false, {
                             fileName: "[project]/src/components/pc/ConsultForm.tsx",
-                            lineNumber: 311,
+                            lineNumber: 309,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/pc/ConsultForm.tsx",
-                        lineNumber: 310,
+                        lineNumber: 308,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -491,7 +489,7 @@ function ConsultForm({ translations: t }) {
                         children: t.consult.policyInfo
                     }, void 0, false, {
                         fileName: "[project]/src/components/pc/ConsultForm.tsx",
-                        lineNumber: 313,
+                        lineNumber: 311,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -499,7 +497,7 @@ function ConsultForm({ translations: t }) {
                         children: t.consult.managementTitle
                     }, void 0, false, {
                         fileName: "[project]/src/components/pc/ConsultForm.tsx",
-                        lineNumber: 314,
+                        lineNumber: 312,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -510,13 +508,13 @@ function ConsultForm({ translations: t }) {
                         children: t.consult.managementContent
                     }, void 0, false, {
                         fileName: "[project]/src/components/pc/ConsultForm.tsx",
-                        lineNumber: 315,
+                        lineNumber: 313,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/pc/ConsultForm.tsx",
-                lineNumber: 309,
+                lineNumber: 307,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -533,12 +531,12 @@ function ConsultForm({ translations: t }) {
                             onChange: handleCheckboxChange
                         }, void 0, false, {
                             fileName: "[project]/src/components/pc/ConsultForm.tsx",
-                            lineNumber: 322,
+                            lineNumber: 320,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/pc/ConsultForm.tsx",
-                        lineNumber: 321,
+                        lineNumber: 319,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -546,13 +544,13 @@ function ConsultForm({ translations: t }) {
                         children: t.consult.checkLabel
                     }, void 0, false, {
                         fileName: "[project]/src/components/pc/ConsultForm.tsx",
-                        lineNumber: 328,
+                        lineNumber: 326,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/pc/ConsultForm.tsx",
-                lineNumber: 320,
+                lineNumber: 318,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -562,7 +560,7 @@ function ConsultForm({ translations: t }) {
                 children: isSubmitting ? t.consult.buttonSubmitting : t.consult.buttonSubmit
             }, void 0, false, {
                 fileName: "[project]/src/components/pc/ConsultForm.tsx",
-                lineNumber: 331,
+                lineNumber: 329,
                 columnNumber: 7
             }, this)
         ]

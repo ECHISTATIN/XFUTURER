@@ -273,9 +273,7 @@ export default function ConsultForm({
         style={{
           display: 'flex',
           alignItems: 'center',
-          width: '717px',
           height: '54px',
-          marginLeft: '602px',
           marginTop: '70px',
           flexDirection: 'column',
         }}
