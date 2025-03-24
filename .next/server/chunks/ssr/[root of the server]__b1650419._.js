@@ -227,7 +227,7 @@ async function generateMetadata({ params }) {
             t["keyword11"],
             t["keyword12"]
         ],
-        icons: "/images/logo_white.png",
+        icons: "/images/xfuture_icon.jpg",
         alternates: {
             canonical: `/${lang}/top`,
             languages: {

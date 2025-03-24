@@ -76,7 +76,7 @@ async function generateMetadata({ params }) {
     const { lang } = await params;
     const t = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$i18n$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getTranslations"])(lang);
     return {
-        title: t.consult.contactpage,
+        title: t.contactpage,
         description: t.consult_meta_d,
         keywords: [
             t["keyword1"],
@@ -92,6 +92,7 @@ async function generateMetadata({ params }) {
             t["keyword11"],
             t["keyword12"]
         ],
+        icons: "/images/xfuture_icon.jpg",
         alternates: {
             canonical: `/${lang}/route/consult`,
             languages: {
@@ -118,7 +119,7 @@ async function ConsultPage({ params }) {
                         children: t.consult.contactForm
                     }, void 0, false, {
                         fileName: "[project]/src/app/[lang]/pc/route/contact/page.tsx",
-                        lineNumber: 44,
+                        lineNumber: 45,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -129,7 +130,7 @@ async function ConsultPage({ params }) {
                                 children: t.consult.home
                             }, void 0, false, {
                                 fileName: "[project]/src/app/[lang]/pc/route/contact/page.tsx",
-                                lineNumber: 46,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -137,7 +138,7 @@ async function ConsultPage({ params }) {
                                 alt: "Contact"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/[lang]/pc/route/contact/page.tsx",
-                                lineNumber: 47,
+                                lineNumber: 48,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -145,19 +146,19 @@ async function ConsultPage({ params }) {
                                 children: t.consult.contactForm
                             }, void 0, false, {
                                 fileName: "[project]/src/app/[lang]/pc/route/contact/page.tsx",
-                                lineNumber: 48,
+                                lineNumber: 49,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/[lang]/pc/route/contact/page.tsx",
-                        lineNumber: 45,
+                        lineNumber: 46,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/[lang]/pc/route/contact/page.tsx",
-                lineNumber: 43,
+                lineNumber: 44,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$pc$2f$ConsultForm$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -165,13 +166,13 @@ async function ConsultPage({ params }) {
                 translations: t
             }, void 0, false, {
                 fileName: "[project]/src/app/[lang]/pc/route/contact/page.tsx",
-                lineNumber: 52,
+                lineNumber: 53,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/[lang]/pc/route/contact/page.tsx",
-        lineNumber: 42,
+        lineNumber: 43,
         columnNumber: 5
     }, this);
 }

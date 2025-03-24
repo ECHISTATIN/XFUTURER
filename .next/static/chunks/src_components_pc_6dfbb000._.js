@@ -41,7 +41,7 @@ function TopCarousel({ images, lang, initialNewsData, translations }) {
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "TopCarousel.useEffect": ()=>{
             const currentImage = images[currentIndex];
-            const logoUrl = typeof currentImage === 'string' && currentImage === '/images/top/pixta_80797973_L.png' ? 'url(/images/logo_color2.png)' : 'url(/images/xfuture_logo.png)';
+            const logoUrl = typeof currentImage === 'string' && currentImage === '/images/top/pixta_80797973_L.png' ? 'url(/images/xfuture_logo2.svg)' : 'url(/images/xfuture_logo.png)';
             document.documentElement.style.setProperty('--logo-image', logoUrl);
             return ({
                 "TopCarousel.useEffect": ()=>{
